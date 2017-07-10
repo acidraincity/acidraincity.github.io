@@ -1,8 +1,4 @@
 그래들  
 그래
 
-    task pack( type : JavaExec, dependsOn : build ){
-    classpath = files( 'build/libs/app-1.0-SNAPSHOT.jar' )
-    classpath += sourceSets.main.runtimeClasspath
-    main = 'com.acidraincity.Application'
-}
+<script src="https://gist.github.com/acidraincity/5da724dbf65255f37f7587d23c063389.js"></script>
