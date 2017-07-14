@@ -27,6 +27,8 @@ jvm 옵션을 다음과 같이 설정할 수 있습니다.
 ```
 java.options.push( '-Xms2G' );
 java.options.push( '-Xmx4G' );
+java.options.push('-Djava.awt.headless=true');
+java.options.push('-Dfile.encoding=UTF-8');
 ```
 
 
