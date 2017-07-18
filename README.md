@@ -8,7 +8,9 @@
 - [electron.java-연동하기](post/dev/electron.java-연동하기)
 
 
+### typescript
 
+- [typescript](post/dev/typescript)
 
 
 
