@@ -2,11 +2,15 @@
 - [gradle](post/dev/gradle)
 
 #### 윈도우즈
-- [windows.소프트링크-만들기](post/dev/windows.소프트링크-만들기)
+- [소프트링크-만들기](post/dev/windows.소프트링크-만들기)
 
 #### electron
-- [electron.java-연동하기](post/dev/electron.java-연동하기)
+- [java-연동하기](post/dev/electron.java-연동하기)
 
+
+### node.js
+
+- [자식프로세스로 bat파일 실행하기](post/dev/nodejs.자식프로세스로_bat파일실행하기)
 
 ### typescript
 
