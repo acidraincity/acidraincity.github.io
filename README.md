@@ -1,6 +1,6 @@
 #### 빌드 시스템
 - [gradle](post/dev/gradle)
-- [안드로이드 빌드](post/dev/gradle.안드로이드-빌드)
+- [gradle.안드로이드 빌드](post/dev/gradle.안드로이드-빌드)
 
 #### 윈도우즈
 - [소프트링크 만들기](post/dev/windows.소프트링크-만들기)
