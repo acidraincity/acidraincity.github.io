@@ -54,3 +54,49 @@ distZip 타스크는 의존하는 라이브러리와 실행 스크립트를 포�
 [gradle-getdown-plugin](https://github.com/davidB/gradle-getdown-plugin)
 
 jre 번들링까지 해주는 것 같은데요. 실제로 사용해보지는 않았습니다.
+
+
+
+### java 플러그인만 사용할 때, jar 파일의 메인클래스 지정하기
+
+
+
+java 플러그인만 사용할 때, 다음과 같이 jar에 포함될 manifest 항목을 설정할 수 있습니다.
+
+```
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.acidraincity.MainClass'
+    }
+}
+```
+
+
+
+### 사용자 타스크에서 파일 복사하기
+
+
+
+다음과 같은 형식으로 copy 타스크를 호출해 복사를 실행합니다.
+
+```
+task userTask( dependsOn : build ) << {
+
+    copy{
+        from 'some/libs/'
+        into '../some/some/libs/'
+        include '*.jar'
+    }
+
+    copy{
+        from 'some/assets'
+        into '../some/some/assets'
+    }
+
+}
+```
+
+
+
