@@ -1,4 +1,9 @@
-#### 빌드 시스템
+#### Android
+
+- [반복되는 패턴 이미지 만들기](post/dev/android.반복되는-패턴-이미지-만들기.md)
+
+#### gradle
+
 - [gradle](post/dev/gradle)
 - [gradle.안드로이드 빌드](post/dev/gradle.안드로이드-빌드)
 
