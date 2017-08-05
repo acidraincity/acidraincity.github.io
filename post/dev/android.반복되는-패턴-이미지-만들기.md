@@ -14,7 +14,7 @@ bitmapDrawable.setTileModeXY( Shader.TileMode.REPEAT, Shader.TileMode.REPEAT );
 
 
 
-xml로 리소스를 구성하려면 다음과 같이 하면 됩니다.
+프로그램 코드가 아니라 xml로 리소스를 구성하려면 다음과 같이 하면 됩니다.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
