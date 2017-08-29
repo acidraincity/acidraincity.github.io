@@ -13,8 +13,6 @@
 #### electron
 
 - [쉽게 시작하기](post/dev/electron.쉽게-시작하기)
-
-
 - [electron으로 데스크탑 앱을 개발하기 위해 둘러볼 내용들](post/dev/electron.electron으로-데스트탑-앱을-개발하기-위해-둘러볼-내용들)
 - [java 연동하기](post/dev/electron.java-연동하기)
 
