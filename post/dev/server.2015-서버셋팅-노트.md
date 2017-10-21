@@ -130,9 +130,27 @@ service mysql restart
 
 ```
 apt-get install subversion
-
 ```
 
-편하고 좋네요.
 
-레파지토리 생성 및 서비스 시작에 대한 내용은 [이전의 서버셋팅노트](http://blog.acidraincity.com/2015/01/svn.html)를 참고하면 될 것 같습니다.
+
+하나의 포트로 하나의 레파지토리만 운영할 경우
+
+* 서버시작 : svnserve -d -r /home/svn_repository/rep1
+* 서버접속 : svn://호스트주소
+
+
+
+하나의 포트로 여러개의 레파지토리를 운영할 경우
+
+* 서버시작 : svnserve -d -r /home/svn_repository
+* 서버접속 : svn://호스트주소/rep1
+
+
+
+SVN 설정파일들
+
+* /root/.subversion/servers
+* 저장소/conf/svnserve.conf
+* 저장소/conf/passwd
+
