@@ -11,19 +11,19 @@
 - [java 연동하기](post/dev/electron.java-연동하기)
 - [google oauth2 인증 및 contacts api 사용](post/dev/electron.google-oauth2-인증-및-contacts-api-사용)
 
-### node.js
+#### node.js
 
 - [자식프로세스로 bat파일 실행하기](post/dev/nodejs.자식프로세스로-bat파일실행하기)
 
-### javascript
+#### javascript
 
 - [Promise.race()를 이용한 타임아웃 처리](post/dev/javascript.Promise.race()를-이용한-타임아웃-처리)
 
-### java
+#### java
 
 - [jre를 번들링하기 위해서 살펴볼 내용들](post/dev/java.jre를-번들링하기-위해서-살펴볼-내용들)
 
-### C++
+#### C++
 
 - [unique_ptr](post/dev/C++.unique_ptr)
 
@@ -32,10 +32,14 @@
 - [gradle](post/dev/gradle)
 - [안드로이드 빌드](post/dev/gradle.안드로이드-빌드)
 
-### typescript
+#### typescript
 
 - [typescript](post/dev/typescript)
 
 #### windows
 
 - [소프트링크 만들기](post/dev/windows.소프트링크-만들기)
+
+#### server
+
+- [2015 서버셋팅 노트](post/dev/server.2015-서버셋팅-노트)
