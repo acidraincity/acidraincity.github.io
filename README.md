@@ -2,6 +2,7 @@
 
 - [반복되는 패턴 이미지 만들기](post/dev/android.반복되는-패턴-이미지-만들기)
 - [Activity의 ContentView를 특정 Fragment로 초기화하는 코드](post/dev/android.Activity의-ContentView를-특정-Fragment로-초기화하는-코드)
+- [크롬북에서 동작하는 안드로이드앱 개발환경 구성](post/dev/android.크롬북에서-동작하는-안드로이드앱-개발환경-구성)
 
 #### 윈도우즈
 
