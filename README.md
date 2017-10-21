@@ -4,10 +4,6 @@
 - [Activity의 ContentView를 특정 Fragment로 초기화하는 코드](post/dev/android.Activity의-ContentView를-특정-Fragment로-초기화하는-코드)
 - [크롬북에서 동작하는 안드로이드앱 개발환경 구성](post/dev/android.크롬북에서-동작하는-안드로이드앱-개발환경-구성)
 
-#### 윈도우즈
-
-- [소프트링크 만들기](post/dev/windows.소프트링크-만들기)
-
 #### electron
 
 - [쉽게 시작하기](post/dev/electron.쉽게-시작하기)
@@ -39,3 +35,7 @@
 ### typescript
 
 - [typescript](post/dev/typescript)
+
+#### windows
+
+- [소프트링크 만들기](post/dev/windows.소프트링크-만들기)
