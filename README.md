@@ -20,14 +20,19 @@
 
 - [자식프로세스로 bat파일 실행하기](post/dev/nodejs.자식프로세스로-bat파일실행하기)
 
+### javascript
+
+- [Promise.race()를 이용한 타임아웃 처리](post/dev/Promise.race()를-이용한-타임아웃-처리)
+
 ### typescript
 
 - [typescript](post/dev/typescript)
 
 ### java
 
-- [jre를-번들링하기-위해서-살펴볼-내용들](post/dev/java.jre를-번들링하기-위해서-살펴볼-내용들)
+- [jre를 번들링하기 위해서 살펴볼 내용들](post/dev/java.jre를-번들링하기-위해서-살펴볼-내용들)
 
 ### C++
 
 - [unique_ptr](post/dev/C++.unique_ptr)
+
