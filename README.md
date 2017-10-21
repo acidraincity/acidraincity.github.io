@@ -1,6 +1,7 @@
-#### Android
+#### android
 
-- [반복되는 패턴 이미지 만들기](post/dev/android.반복되는-패턴-이미지-만들기.md)
+- [반복되는 패턴 이미지 만들기](post/dev/android.반복되는-패턴-이미지-만들기)
+- [Activity의 ContentView를 특정 Fragment로 초기화하는 코드](android.Activity의-ContentView를-특정-Fragment로-초기화하는-코드)
 
 #### gradle
 
