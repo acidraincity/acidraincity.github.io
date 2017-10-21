@@ -6,7 +6,7 @@
 
 다음과 같은 방식으로 반복되는 패턴 이미지를 정의할 수 있습니다.
 
-```
+```java
 Bitmap bitmap = ...
 BitmapDrawable bitmapDrawable = new BitmapDrawable( getResources(), bitmap );
 bitmapDrawable.setTileModeXY( Shader.TileMode.REPEAT, Shader.TileMode.REPEAT );
