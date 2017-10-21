@@ -22,7 +22,7 @@
 
 ### javascript
 
-- [Promise.race()를 이용한 타임아웃 처리](post/dev/Promise.race()를-이용한-타임아웃-처리)
+- [Promise.race()를 이용한 타임아웃 처리](post/dev/javascript.Promise.race()를-이용한-타임아웃-처리)
 
 ### typescript
 
