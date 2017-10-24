@@ -18,6 +18,9 @@
 #### 1. 구글 클라우드 VM인스턴스 SSH 연결
 
 
+
+##### 방법1.
+
 구글 클라우드 콘솔에서 클릭 한번으로 SSH 연결할 수 있지만, 브라우저상에 구현된 SSH 클라이언트는 사용성이 떨어지는 느낌입니다.
 구글 클라우드 SDK의 gcloud 도구로 접속하기로 합니다.
 [공식문서](https://cloud.google.com/sdk/docs/quickstart-mac-os-x)에서 가이드하는 방법으로 SDK를 설치합니다.
@@ -35,12 +38,48 @@ source ./completion.bash.inc
 gcloud compute ssh instance-1 --zone asia-northeast1-c
 ```
 
-최초 접속 과정에서 퍼블릭키가 생성되고 다음과 같이 저장됩니다.
+최초 접속 과정에서 개인키/공개키 쌍이 생성되고 사용자 컴퓨터에 다음과 같이 저장됩니다.
+
+공개키는 서버로 전송되어 서버 인스턴스에 저장됩니다. 
 
 ```
 Your identification has been saved in /Users/사용자명/.ssh/google_compute_engine.
 Your public key has been saved in /Users/사용자명/.ssh/google_compute_engine.pub.
 ```
+
+
+
+##### 방법2.
+
+방법1에서 저장된 ssh 개인키를 다른 ssh 클라이언트에서도 사용할 수 있습니다.
+
+```
+ssh -i /Users/사용자명/.ssh/google_compute_engine 사용자명@호스트주소
+```
+
+또는 개인키/공개키 쌍을 새로 생성해 사용할 수도 있습니다.
+
+```
+ssh-keygen
+```
+
+gcloud를 사용할 때와는 달리 공개키를 서버에 자동으로 전송해 등록해주지 않기 때문에, 직접 서버에 등록해야 합니다.
+
+구글클라우드 콘솔에서 다음 항목에 추가하면 됩니다.
+
+```
+Compute Engine - 메타데이터 - SSH키
+```
+
+해당 정보는 서버 인스턴스의 아래 경로에 저장됩니다.
+
+```
+~/.ssh/authorized_keys
+```
+
+ 
+
+서버에 등록된 공개키에 대응하는 ssh 개인키를 sftp 연결시에도 이용할 수 있는데요. FileZilla 의 경우에는 개인키파일을 ppk 형식으로 변환시킨 후 사용하도록 되어있습니다. 변환은 FileZilla가 알아서 해주는데요. 암호화를 지원하지 않기 때문에 개인키가 평문으로 존재하게 되어서 보안 수준이 낮아집니다.
 
 
 
