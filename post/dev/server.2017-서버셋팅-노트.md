@@ -121,7 +121,6 @@ sudo apt-get install libapache2-mod-jk
 
 ```
 <Context docBase="/var/www/html" path="/" reloadable="true" />
-
 ```
 
 /etc/libapache2-mod-jk/workers.properties 의 자바경로와 톰캣경로 수정합니다.
@@ -241,5 +240,68 @@ bind-address = 127.0.0.1
 
 ```
 sudo service mysql restart
+```
+
+
+
+데이터베이스를 생성합니다.
+
+```
+mysql -uroot -p
+create database 데이터베이스이름
+```
+
+
+
+사용자를 생성하고 권한을 부여합니다. 사용자는 원격 호스트에서 접속할 수 있도록 설정하였습니다.
+
+```
+create user '사용자이름'@'%' identified by '패스워드';
+```
+
+로컬에서만 접속하려면 '%'가 아니라 'localhost'를 사용해야 합니다.
+
+혹시 잘못 입력했을 때는 다음과 같이 사용자를 삭제할 수 있습니다.
+
+```
+drop user '사용자이름'@'%';
+```
+
+사용자가 잘 생성되었는지 확인해봅니다.
+
+```
+use mysql;
+select host, user from user;
+```
+
+사용자에게 특정 데이터베이스에 대한 권한을 부여합니다.
+
+```
+grant all privileges on 데이터베이스이름.* to 사용자이름@'%';
+```
+
+
+
+이전에 사용하고 있던 서버의 데이터베이스를 백업합니다.
+
+```
+mysqldump -uroot -p 데이터베이스이름 > ./backup.sql
+```
+
+새로 구축한 MariaDB에 데이터를 이전합니다.
+
+```
+mysql -uroot -p 데이터베이스이름 < ./backup.sql
+```
+
+
+
+다음과 같은 내용으로 백업 스크립트를 만들었습니다.
+
+```
+#!/bin/bash
+mysqldump -u사용자이름 -p패스워드 데이터베이스이름 > /some/path/backup_$(date +%Y%m%d).sql
+find /some/path/ -ctime +5 -exec rm -f {} \;
+mysql -u사용자이름 -p패스워드 백업데이터베이스이름 < /some/path/backup_$(date +%Y%m%d).sql
 ```
 
