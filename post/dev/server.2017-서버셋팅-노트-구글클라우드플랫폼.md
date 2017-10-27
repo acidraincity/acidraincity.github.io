@@ -1,4 +1,4 @@
-# server. 2017 서버셋팅 노트
+# server. 2017 서버셋팅 노트 - 구글 클라우드 플랫폼
 
 20171022
 
@@ -83,84 +83,53 @@ Compute Engine - 메타데이터 - SSH키
 
 
 
-#### 2. root 패스워드 변경
+#### 2. root 계정 활성화
 
-Ubuntu 루트계정 패스워드를 변경할 수 있습니다.
+Ubuntu 루트계정 패스워드를 변경하며 root 계정을 활성화합니다.
 
 ```
-sudo passwd
+sudo passwd root
 ```
 
+앞으로의 작업은 루트계정으로 로그인해서 진행합니다.
+
+루트계정으로 로그인하기 위해서는 위에서 서버에 등록한 퍼블릭키 정보 안의 사용자명을 root로 변경해주어야 합니다.
 
 
-#### 2. JDK 설치
+
+#### 3. JDK 설치
 
 open jdk를 사용합니다.
 
 [How To Install Java with Apt-Get on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04)
 
 ```
-sudo apt-get update
-sudo apt-get install default-jre
-sudo apt-get install default-jdk
-sudo update-alternatives --config java
+apt-get update
+apt-get install default-jre
+apt-get install default-jdk
+update-alternatives --config java
 ```
 
 /etc/environment 에 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 추가을 추가합니다.
 
 
 
-#### 3. 아파치, 톰캣 설치
+#### 4. 아파치 설치
 
 ```
-sudo apt-get install apache2
-sudo apt-get install libapache2-mod-jk
+apt-get install apache2
+apt-get install libapache2-mod-jk
 ```
-
-톰캣 host 엘레먼트 하위에 다음 내용을 추가합니다.
-
-```
-<Context docBase="/var/www/html" path="/" reloadable="true" />
-```
-
-/etc/libapache2-mod-jk/workers.properties 의 자바경로와 톰캣경로 수정합니다.
-
-/etc/apache2/sites-enabled/000-default.conf 에 JkMount 설정을 추가합니다.
-
-```
-JkMount /*.jsp ajp13_worker
-JkMount /WEB-INF/* ajp13_worker
-```
-
-아래는 톰캣과 아파치 연동에 관한 레퍼런스입니다.
-
-<http://tomcat.apache.org/connectors-doc/webserver_howto/printer/apache.html>
-
-여기서 가이드하는 내용으로는 보안상 다음과 같이 하는게 좋다고 합니다.
-
-나중에 고쳐야 겠네요.
-
-```
-# All requests go to worker1 by default
-JkMount /* worker1
-
-# Serve html, jpg and gif using httpd
-JkUnMount /*.html worker1
-JkUnMount /*.jpg  worker1
-JkUnMount /*.gif  worker1
-```
-
-/etc/apache2/apache2.conf 설정파일의 Directory 항목에서 Options 에 Indexs 제거합니다.
-
-/etc/apache2/mods-enabled/dir.conf 파일의 DirectoryIndex 항목에 index.jsp 추가합니다.
 
 아파치 서버를 재시작합니다.
 
 ```
-sudo /etc/init.d/apache2 restart
+/etc/init.d/apache2 restart
 ```
 
-#### 3. MariaDB 설치
+
+
+#### 5. MariaDB 설치
 
 다음 명령으로 설치하려는 OS 정보를 확인합니다.
 
@@ -188,19 +157,19 @@ Codename:	xenial
 
 ```
 #레파지토리 등록
-sudo apt-get install software-properties-common
-sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
-sudo add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.kaist.ac.kr/mariadb/repo/10.2/ubuntu xenial main'
+apt-get install software-properties-common
+apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.kaist.ac.kr/mariadb/repo/10.2/ubuntu xenial main'
 
 #설치
-sudo apt update
-sudo apt install mariadb-server
+apt update
+apt install mariadb-server
 ```
 
 혹시 레파지토리를 잘못 등록했을 때 지우고 싶으면 -r 옵션을 뒤에 붙여서 다시 실행하면 됩니다.
 
 ```
-sudo add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.kaist.ac.kr/mariadb/repo/10.2/ubuntu xenial main' -r
+add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.kaist.ac.kr/mariadb/repo/10.2/ubuntu xenial main' -r
 ```
 
  
@@ -224,7 +193,6 @@ skip-character-set-client-handshake
 [mysql]
 
 default-character-set=utf8
-
 ```
 
 원격에서의 접속을 허용하려면 설정중 아래 라인을 주석처리합니다.(<https://opentutorials.org/module/1175/7779>)
@@ -239,7 +207,7 @@ bind-address = 127.0.0.1
 설정을 바꾼 후에는 서비스를 재시작해야 합니다.
 
 ```
-sudo service mysql restart
+service mysql restart
 ```
 
 
@@ -305,3 +273,10 @@ find /some/path/ -ctime +5 -exec rm -f {} \;
 mysql -u사용자이름 -p패스워드 백업데이터베이스이름 < /some/path/backup_$(date +%Y%m%d).sql
 ```
 
+
+
+#### 6. 셋팅 중지
+
+하다보니까 구글 클라우드 플랫폼보다는 아마존 AWS가 좋을 것 같은 생각이 들었습니다.
+
+그래서 구글 클아우드 플랫폼 서버 셋팅 작업은 여기에서 중지하였습니다.
