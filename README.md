@@ -18,6 +18,7 @@
 #### javascript
 
 - [Promise.race()를 이용한 타임아웃 처리](post/dev/javascript.Promise.race()를-이용한-타임아웃-처리)
+- [x-tag를 사용해서 웹컴포넌트 구현하기](post/dev/javascript.x-tag를-사용해서-웹컴포넌트-구현하기)
 
 #### java
 
