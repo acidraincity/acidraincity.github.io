@@ -34,7 +34,7 @@
 
 #### typescript
 
-- [typescript](post/dev/typescript)
+- [nodejs 타입정보 추가하기](post/dev/typescript.nodejs-타입정보-추가하기)
 
 #### windows
 
