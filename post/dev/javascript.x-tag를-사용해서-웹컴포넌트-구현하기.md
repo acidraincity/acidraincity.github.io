@@ -6,7 +6,7 @@
 
 UI 구성요소를 웹컴포넌트로 만들어서 라이브러리화하고 재상용성을 높일 수 있습니다.
 
-http://d2.naver.com/helloworld/188655
+<http://d2.naver.com/helloworld/188655>
 
 
 

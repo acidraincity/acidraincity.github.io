@@ -26,4 +26,4 @@ tsconfig.json에 다음과 같은 설정을 추가합니다.
 
 다음 사이트에서 라이브러리 이름으로 검색해볼 수 있습니다.
 
-https://microsoft.github.io/TypeSearch/
+<https://microsoft.github.io/TypeSearch/>
