@@ -124,6 +124,39 @@ JkUnMount /*.js ajp13_worker
 
 
 
+그런데 톰캣 메니저로 war파일을 디플로이 할 경우 아파치 웹서버에서 정적 리소스를 서비스하지 못하는 권한문제가 발생합니다.
+
+톰캣을 www-data 그룹의 유저로 실행시켜 이러한 권한문제를 회피하려 합니다.
+
+우선 root 유저를 www-data 그룹에 추가합니다.
+
+[참고자료](https://devnoff.wordpress.com/2016/01/23/%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A5%BC-%EA%B7%B8%EB%A3%B9%EC%97%90-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/)
+
+```
+usermod -a -G www-data root
+```
+
+하는 김에 기본 사용자인 ubuntu도 해줍시다.
+
+```
+usermod -a -G www-data ubuntu
+```
+
+톰캣 디렉토리의 소유 그룹을 변경합니다.
+
+```
+chown -R www-data:root ./apache-tomcat-8.5.24
+```
+
+톰캣 프로세스를 재시작시킬 때마다 www-data 그룹으로 진입하는 작업을 선행해야 합니다. 
+
+```
+newgrp www-data
+./catalina.sh start
+```
+
+
+
 #### 5. MariaDB 설치
 
 다음 명령으로 설치하려는 OS 정보를 확인합니다.
