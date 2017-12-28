@@ -52,7 +52,7 @@ RUST와 Emscripten을 설치하고 기본적인 코드를 빌드하는 방법을
 
 [The Path to Rust on the Web](https://hoverbear.org/2017/04/06/the-path-to-rust-on-the-web/)
 
-위에 더해, 러스트와 자바스크립트의 상호 호출 코드를 보여줍니다. Emscripten의 템플릿 코드에 의존적입니다.
+**위에 더해, 러스트와 자바스크립트의 상호 호출 코드를 보여줍니다.** Emscripten의 템플릿 코드에 의존적입니다.
 
 
 
