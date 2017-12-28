@@ -22,6 +22,22 @@ importObj 에 대한 설명글입니다.
 
 
 
+[Standalone WebAssembly Example](https://gist.github.com/kripken/59c67556dc03bb6d57052fedef1e61ab)
+
+**가장 기본적인 wasm 샘플 코드입니다.**
+
+
+
+[Calling alert from WebAssembly (WASM)](https://gist.github.com/cure53/f4581cee76d2445d8bd91f03d4fa7d3b)
+
+**자바스크립트 funciton을 임포트해서, wasm에서 호출할 수 있도록 하는 샘플 코드입니다.**
+
+
+
+------
+
+
+
 <https://davidmcneil.gitbooks.io/the-rusty-web/content/setup-and-hello-world.html>
 
 RUST와 Emscripten을 설치하고 기본적인 코드를 빌드하는 방법을 설명합니다.
@@ -31,6 +47,24 @@ RUST와 Emscripten을 설치하고 기본적인 코드를 빌드하는 방법을
 - [Compiling Rust to WebAssembly Guide](https://hackernoon.com/compiling-rust-to-webassembly-guide-411066a69fde)
 - [Compiling to the web with Rust and emscripten](https://users.rust-lang.org/t/compiling-to-the-web-with-rust-and-emscripten/7627)
 
+
+
+
+[The Path to Rust on the Web](https://hoverbear.org/2017/04/06/the-path-to-rust-on-the-web/)
+
+위에 더해, 러스트와 자바스크립트의 상호 호출 코드를 보여줍니다. Emscripten의 템플릿 코드에 의존적입니다.
+
+
+
+[WebAssembly and Rust](https://github.com/raphamorim/wasm-and-rust)
+
+비슷한 내용입니다.
+
+
+
+[stdweb](https://github.com/koute/stdweb)
+
+RUST로 wasm을 구현할 때의 WebAPI접근에 대한 기본 라이브러리 구현입니다.
 
 
 
@@ -46,9 +80,18 @@ RUST, Webpack, Webassembly를 연동해서 사용하는 방법을 설명합니�
 
 
 
+[rust-native-wasm-loader](https://github.com/dflemstr/rust-native-wasm-loader)
+위와 같은 용도의 또 다른 Webpack 로더 구현입니다.
+
+
+
 [rustify](https://github.com/browserify/rustify)
 
 위와 비슷하지만 Webpack대신에 browserify를 사용합니다. 
+
+
+
+------
 
 
 
