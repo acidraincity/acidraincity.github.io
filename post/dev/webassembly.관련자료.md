@@ -38,6 +38,41 @@ importObj 에 대한 설명글입니다.
 
 
 
+<https://www.hellorust.com/>
+
+러스트로 웹어셈블리 개발을 하기 위한 절차와 형상을 설명합니다.
+
+
+
+[stdweb](https://github.com/koute/stdweb)
+
+RUST로 wasm을 구현할 때의 WebAPI접근에 대한 기본 라이브러리 구현입니다.
+
+
+
+[Get Started with Rust, WebAssembly, and Webpack](https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635)
+
+RUST, Webpack, Webassembly를 연동해서 사용하는 방법을 설명합니다.
+
+
+
+[rust-native-wasm-loader](https://github.com/dflemstr/rust-native-wasm-loader)
+위와 같은 용도의 또 다른 Webpack 로더 구현입니다.
+
+
+
+[rustify](https://github.com/browserify/rustify)
+
+위와 비슷하지만 Webpack대신에 browserify를 사용합니다. 
+
+
+
+
+
+아래 사이트들도 RUST와 wasm 관련해서 참고할만한 내용을 담고 있습니다.
+
+
+
 <https://davidmcneil.gitbooks.io/the-rusty-web/content/setup-and-hello-world.html>
 
 RUST와 Emscripten을 설치하고 기본적인 코드를 빌드하는 방법을 설명합니다.
@@ -62,32 +97,11 @@ RUST와 Emscripten을 설치하고 기본적인 코드를 빌드하는 방법을
 
 
 
-[stdweb](https://github.com/koute/stdweb)
-
-RUST로 wasm을 구현할 때의 WebAPI접근에 대한 기본 라이브러리 구현입니다.
-
-
-
 <https://davidmcneil.gitbooks.io/the-rusty-web/content/creating-a-library.html>
 
 RUST로 wasm을 작성할 때 인터페이스를 노출(export)하는 방법과 cargo라이브러리 구성 방법을 설명합니다.
 
 
-
-[Get Started with Rust, WebAssembly, and Webpack](https://medium.com/@ianjsikes/get-started-with-rust-webassembly-and-webpack-58d28e219635)
-
-RUST, Webpack, Webassembly를 연동해서 사용하는 방법을 설명합니다.
-
-
-
-[rust-native-wasm-loader](https://github.com/dflemstr/rust-native-wasm-loader)
-위와 같은 용도의 또 다른 Webpack 로더 구현입니다.
-
-
-
-[rustify](https://github.com/browserify/rustify)
-
-위와 비슷하지만 Webpack대신에 browserify를 사용합니다. 
 
 
 
