@@ -58,7 +58,7 @@ java 코드를 호스팅할 수 있는 경랑 VM 구현체라고 합니다.
 
 [https://github.com/alexkasko/openjdk-unofficial-builds](https://github.com/alexkasko/openjdk-unofficial-builds)
 
-[https://github.com/ojdkbuild/ojdkbuild](https://github.com/alexkasko/openjdk-unofficial-builds)
+[https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
 
 위의 사이트들에서 Open JDK를 다운로드 받을 수 있으며, 그 안에 jre가 들어있습니다.
 
