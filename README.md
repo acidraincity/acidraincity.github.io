@@ -36,6 +36,7 @@
 #### gradle
 
 - [gradle](post/dev/gradle)
+- [로컬저장소를 통해 모듈 의존성 관리하기](post/dev/gradle.로컬저장소를-통해-모듈-의존성-관리하기)
 - [안드로이드 빌드](post/dev/gradle.안드로이드-빌드)
 
 #### typescript
