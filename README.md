@@ -24,6 +24,7 @@
 
 - [Promise.race()를 이용한 타임아웃 처리](post/dev/javascript.Promise.race()를-이용한-타임아웃-처리)
 - [x-tag를 사용해서 웹컴포넌트 구현하기](post/dev/javascript.x-tag를-사용해서-웹컴포넌트-구현하기)
+- [비동기로 호출되는 내부함수에서 외부의 지역변수값 캡쳐하기](post/dev/javascript.비동기로-호출되는-내부함수에서-외부의-지역변수값-캡쳐하기)
 
 #### java
 
