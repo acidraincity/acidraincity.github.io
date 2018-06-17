@@ -39,6 +39,7 @@
 - [byte의 unsigned 값을 int로 표시하기](post/dev/java.byte의-unsigned-값을-int로-표시하기)
 - [jre를 번들링하기 위해서 살펴볼 내용들](post/dev/java.jre를-번들링하기-위해서-살펴볼-내용들)
 - [Gson 라이브러리를 이용해 자바 오브젝트를 JSON 형식으로 상호변환하기](post/dev/java.Gson-라이브러리를-이용해-자바-오브젝트를-JSON-형식으로-상호변환하기)
+- [직렬화를 이용한 객체복사](post/dev/java.직렬화를-이용한-객체복사)
 
 #### C++
 
