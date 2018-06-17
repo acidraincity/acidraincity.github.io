@@ -50,7 +50,7 @@ reload-service.sh 파일은 다음과 같이 작성하였습니다.
 ```shell
 #!/bin/bash
 wget --http-user=xxxx --http-password=yyyy "http://localhost/manager/text/reload?path=/service" -O -
-sudo chgrp -R www-data /some/tomcat/webapps/service/
+sudo chmod -R 755 /some/tomcat/webapps/service/
 sleep 5
 sudo ls -l /some/tomcat/webapps/
 ```
@@ -61,8 +61,9 @@ tomcat manager에서 제공하는 인터페이스를 호출해서 컨텍스트�
 
 
 
-그리고 war가 재배포 되면 사용자와 접근권한이 아파치에서 접근 불가능하게 초기화되는 문제가 있어서, 배포후 사용자 그룹을 www-data로 변경하도록 스크립트를 구성했습니다.
+war가 재배포된 후, 포함하는 정적 리소스 파일을 아파치 웹서버에서 접근할 수 없게 되는 문제가 있어서, 해당 파일에 대한 접근 권한을 변경하는 내용이 포함되어 있습니다.
 
 
 
 패스워드 입력 없이 sudo 기능을 사용할 수 있게 미리 설정해둔 상태입니다. 관련해서는 [이 포스트](https://askubuntu.com/a/147265)를 참고하세요.
+
