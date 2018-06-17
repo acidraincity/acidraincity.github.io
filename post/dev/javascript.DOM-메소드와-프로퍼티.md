@@ -6,7 +6,7 @@
 
 ## 노드 생성
 
-#### 
+
 
 #### 1. 엘레먼트 생성
 
@@ -42,9 +42,11 @@ var messageN = document.createTextNode( "hey!!" );
 var divCE = divE.cloneNode( false );
 ```
 
-###  
+
 
 ## 노드의 삽입,이동
+
+
 
 #### 1. 마지막 자식으로 추가
 
@@ -71,7 +73,7 @@ document.body.insertBefore( divCE, divE );
 
 #### 3. appendChild, insertBefore 이용시에 대상 엘레먼트가 이미 문서구조상에 존재할 경우, 기존 위치에서는 삭제되게 된다 ( 이동의 효과 )
 
-###  
+
 
 ## 노드의 삭제
 
@@ -82,7 +84,7 @@ document.body.insertBefore( divCE, divE );
 document.body.removeChild( divCE );
 ```
 
-###  
+
 
 ## 노드의 교체
 
@@ -93,9 +95,11 @@ document.body.removeChild( divCE );
 document.body.replaceChild( divCE, divE );
 ```
 
-###  
+
 
 ## 엘레먼트의 속성 생성,변경,참조
+
+
 
 #### 1. 엘레먼트의 속성 생성,변경
 
@@ -105,7 +109,7 @@ document.body.replaceChild( divCE, divE );
 divE.setAttribute( "id", "firstDiv" );
 ```
 
-#### 
+
 
 #### 2. 엘레먼트의 속성 참조
 
@@ -116,9 +120,11 @@ divE.setAttribute( "id", "firstDiv" );
 var divId = divE.getAttribute( "id" );
 ```
 
-###  
+
 
 ## 하위 엘레먼트 획득
+
+
 
 #### 1. 하위 엘레먼트중 특정 아이디를 가진 엘레먼트를 획득
 
@@ -138,9 +144,11 @@ var searchedDiv = document.getElementById( "firstDiv" );
 var searchedDivArray = document.getElementsByTagName( "div" );
 ```
 
-###  
+
 
 ## 노드 프로퍼티
+
+
 
 #### 1. 노드.nodeType
 
@@ -162,7 +170,7 @@ var searchedDivArray = document.getElementsByTagName( "div" );
 
 <https://developer.mozilla.org/ko/docs/Web/API/Node/nodeType>
 
-#### 
+
 
 #### 2. 노드.nodeName
 
@@ -171,7 +179,7 @@ var searchedDivArray = document.getElementsByTagName( "div" );
 - nodeType이 TEXT_NODE일 경우 nodeName 은 #text 라는 문자열을 가짐
 - nodeName 프로퍼티는 읽기 전용이며 임의로 값을 변경할 수 없음
 
-#### 
+
 
 #### 3. 노드.nodeValue
 
@@ -192,38 +200,39 @@ if( findedDivE != null && findedDivE.firstChild.nodeType == 3 ){ // 3은 TEXT_NO
 
 - 자식노드를 가지고 있는지 여부를 boolean값으로 가지며, 읽기전용이다
 
-#### 
+
 
 #### 5. 노드.childNodes
 
 - 자식 노드들의 배열을 가지며, 읽기 전용이다
 
-#### 
+
 
 #### 6. 노드.firstChild
 
 - 첫번째 자식노드에 대한 참조를 가지며, 읽기 전용이다
 
-#### 
+
 
 #### 7. 노드.lastChild
 
 - 마지막 자식노드에 대한 참조를 가지며, 읽기 전용이다
 
-#### 
+
 
 #### 8. 노드.nextSibling
 
 - 같은 parentNode 를 가지는 동일수준 노드들 중 다음 노드에 대한 참조를 가지며, 읽기 전용이다
 
-#### 
+
 
 #### 9. 노드.previousSibling
 
 - 같은 parentNode 를 가지는 동일수준 노드들 중 이전 노드에 대한 참조를 가지며, 읽기 전용이다
 
-#### 
+
 
 #### 10. 노드.parentNode
 
 - 부모노드의 참조를 가지며, 읽기전용이다
+
