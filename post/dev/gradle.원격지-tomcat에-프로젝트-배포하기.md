@@ -4,16 +4,16 @@
 
 
 
-[ssh 플러그인](//https://gradle-ssh-plugin.github.io/docs/)을 사용하여 원격지 서버에 연결하는 방법을 사용합니다.
+[ssh 플러그인](https://gradle-ssh-plugin.github.io/docs/)을 사용해서 원격지 서버에 연결하고 명령을 실행시킬 수 있습니다.
 
 
 
 ```groovy
 buildscript {
-   dependencies {
-		...
-		classpath 'org.hidetake:gradle-ssh-plugin:2.9.0'
-   }
+  dependencies {
+    ...
+    classpath 'org.hidetake:gradle-ssh-plugin:2.9.0'
+  }
 }
 
 apply plugin: 'war'
@@ -22,22 +22,22 @@ apply plugin: 'org.hidetake.ssh'
 ...
 
 remotes {
-   jeon{
-      host = 'xxx.xxx.xxx.xxx'
-      user = 'username'
-      identity = file('/some/path/cert.pem')
-   }
+  jeon{
+    host = 'xxx.xxx.xxx.xxx'
+    user = 'username'
+    identity = file('/some/path/cert.pem')
+  }
 }
 
 task deployToAcidraincity( dependsOn: 'war' ){
-   doLast{
-      ssh.run{
-         session( remotes.jeon ){
-            put from: 'build/libs/service.war', into: '/some/tomcat/webapps/'
-            execute './reload-service.sh'
-         }
+  doLast{
+    ssh.run{
+      session( remotes.jeon ){
+        put from: 'build/libs/service.war', into: '/some/tomcat/webapps/'
+        execute './reload-service.sh'
       }
-   }
+    }
+  }
 }
 ```
 
