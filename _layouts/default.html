@@ -21,10 +21,21 @@
     <!--[if lt IE 9]>
     <script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style type="text/css">
+        div.wrapper {
+            width:auto;
+            margin:0;
+        }
+
+        header, section, footer {
+            float:none;
+            position:static;
+            width:auto;
+        }
+    </style>
 </head>
 <body>
-<!--<div class="wrapper">-->
-<div style="width:auto;margin:0;">
+<div class="wrapper">
     <header>
         <h1><a href="http://acidraincity.github.io">{{ site.title | default: site.github.repository_name }}</a></h1>
         <!--<h1>{{ site.title | default: site.github.repository_name }}</h1>-->
