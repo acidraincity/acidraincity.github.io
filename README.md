@@ -1,3 +1,7 @@
+#### react
+
+- [폼 핸들링 관련한 몇가지 동작 규칙](post/dev/react.폼-핸들링-관련한-몇가지-동작-규칙)
+
 #### rust
 
 - [윈도우앱 실행시에 콘솔창이 표시되지 않게 하기](post/dev/rust.윈도우앱-실행시에-콘솔창이-표시되지-않게-하기)
@@ -8,6 +12,7 @@
 
 #### android
 
+- [JNI 네이티브 코드에서 Android Java API 호출하기](post/dev/android.JNI-네이티브-코드에서-Android-Java-API-호출하기)
 - [반복되는 패턴 이미지 만들기](post/dev/android.반복되는-패턴-이미지-만들기)
 - [Activity의 ContentView를 특정 Fragment로 초기화하는 코드](post/dev/android.Activity의-ContentView를-특정-Fragment로-초기화하는-코드)
 - [크롬북에서 동작하는 안드로이드앱 개발환경 구성](post/dev/android.크롬북에서-동작하는-안드로이드앱-개발환경-구성)
@@ -25,6 +30,7 @@
 
 #### javascript
 
+- [DOM 메소드와 프로퍼티](post/dev/javascript.DOM-메소드와-프로퍼티)
 - [Promise.race()를 이용한 타임아웃 처리](post/dev/javascript.Promise.race()를-이용한-타임아웃-처리)
 - [x-tag를 사용해서 웹컴포넌트 구현하기](post/dev/javascript.x-tag를-사용해서-웹컴포넌트-구현하기)
 - [비동기로 호출되는 내부함수에서 외부의 지역변수값 캡쳐하기](post/dev/javascript.비동기로-호출되는-내부함수에서-외부의-지역변수값-캡쳐하기)
@@ -32,8 +38,10 @@
 
 #### java
 
+- [byte의 unsigned 값을 int로 표시하기](post/dev/java.byte의-unsigned-값을-int로-표시하기)
 - [jre를 번들링하기 위해서 살펴볼 내용들](post/dev/java.jre를-번들링하기-위해서-살펴볼-내용들)
 - [Gson 라이브러리를 이용해 자바 오브젝트를 JSON 형식으로 상호변환하기](post/dev/java.Gson-라이브러리를-이용해-자바-오브젝트를-JSON-형식으로-상호변환하기)
+- [직렬화를 이용한 객체복사](post/dev/java.직렬화를-이용한-객체복사)
 
 #### C++
 
@@ -44,6 +52,7 @@
 - [gradle](post/dev/gradle)
 - [로컬저장소를 통해 모듈 의존성 관리하기](post/dev/gradle.로컬저장소를-통해-모듈-의존성-관리하기)
 - [안드로이드 빌드](post/dev/gradle.안드로이드-빌드)
+- [원격지 tomcat에 프로젝트 배포하기](post/dev/gradle.원격지-tomcat에-프로젝트-배포하기)
 
 #### typescript
 
@@ -69,5 +78,6 @@
 
 #### css
 
+- [flexbox 남은 공간 전체를 차지하기](post/dev/css.flexbox-남은-공간-전체를-차지하기)
 - [내부구성요소를 정중앙에 정렬해 배치하기](post/dev/css.내부구성요소를-정중앙에-정렬해-배치하기)
 - [옆 컬럼 넓이의 나머지만큼 넓이 지정하기](post/dev/css.옆-컬럼-넓이의-나머지만큼-넓이-지정하기)

@@ -85,31 +85,37 @@ workers.tomcat_home=/home/app/apache-tomcat-8.5.24
 workers.java_home=/usr/lib/jvm/java-8-openjdk-amd64
 ```
 
-/etc/apache2/sites-enabled/000-default.conf 에 다음과 같은 처리를 합니다.
+/etc/apache2/sites-enabled/acidraincity.com.conf 파일을 만들고 다음과 같은 처리를 합니다.
 
 - JkMount 설정을 추가합니다.
 - DocumentRoot를 톰캣 웹앱 폴더로 맞춰주고 해당 디렉토리에 대한 설정을 추가합니다.
 
 ```
-DocumentRoot /home/app/apache-tomcat-8.5.24/webapps
+<VirtualHost *:80>
+	ServerName acidraincity.com
+	ServerAlias www.acidraincity.com
+	ServerAlias ats.acidraincity.com
+	ServerAdmin webmaster@localhost
+	DocumentRoot /home/app/apache-tomcat-8.5.24/webapps
 
-#기본적으로 모든 요청을 톰캣에 전달
-JkMount /* ajp13_worker
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-#아래 요청은 아파치 웹서버에서 처리
-JkUnMount /*.html ajp13_worker
-JkUnMount /*.jpg ajp13_worker
-JkUnMount /*.png ajp13_worker
-JkUnMount /*.gif ajp13_worker
-JkUnMount /*.svg ajp13_worker
-JkUnMount /*.css ajp13_worker
-JkUnMount /*.js ajp13_worker
+	JkMount /* ajp13_worker
+        JkUnMount /*.html ajp13_worker
+        JkUnMount /*.jpg ajp13_worker
+        JkUnMount /*.png ajp13_worker
+        JkUnMount /*.gif ajp13_worker
+	JkUnMount /*.svg ajp13_worker
+        JkUnMount /*.css ajp13_worker
+        JkUnMount /*.js ajp13_worker
 
-<Directory /home/app/apache-tomcat-8.5.24/webapps>
-  Options FollowSymLinks
-  AllowOverride None
-  Require all granted
-</Directory>
+	<Directory /home/app/apache-tomcat-8.5.24/webapps>
+  		Options FollowSymLinks
+  		AllowOverride None
+  		Require all granted
+	</Directory>
+</VirtualHost>
 ```
 
 /etc/apache2/apache2.conf 설정파일의 Directory 항목에서 Options 에 Indexs 제거합니다.
@@ -302,4 +308,55 @@ mysql -u사용자이름 -p패스워드 백업데이터베이스이름 < /some/pa
 ```
 
 
+
+#### 6. Letsencrypt 를 이용해 SSL 설정
+
+[이 포스팅](https://linuxhostsupport.com/blog/how-to-install-lets-encrypt-with-apache-on-ubuntu-16-04/) 내용을 참고해 진행했습니다.
+
+
+
+필요한 프로그램 설치
+
+```
+apt-get install software-properties-common python-software-properties
+add-apt-repository ppa:certbot/certbot
+apt-get update
+apt-get install python-certbot-apache
+```
+
+
+
+certbot 프로그램이 인증서 발급 및 아파치 설정을 처리해줍니다. 
+
+처리 결과로 /etc/apache2/sites-enabled/acidraincity.com-le-ssl.conf 파일이 자동 생성됩니다.
+
+```
+certbot --apache -d acidraincity.com -d www.acidraincity.com -d ats.acidraincity.com
+```
+
+
+
+발급된 인증서는 아래 경로에 위치합니다.
+
+```
+ls /etc/letsencrypt/live/acidraincity.com/
+```
+
+
+
+crontab에 주기적으로 인증서를 갱신하도록 등록하면 편합니다.
+
+```
+crontab -e
+```
+
+```
+0 0 1 * * /usr/bin/letsencrypt renew >> /var/log/letsencrypt-renew.log
+```
+
+변경 내용을 적용합니다.
+
+```
+service cron restart
+```
 
