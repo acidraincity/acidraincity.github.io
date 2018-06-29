@@ -50,8 +50,8 @@ reload-service.sh 파일은 다음과 같이 작성하였습니다.
 ```shell
 #!/bin/bash
 wget --http-user=xxxx --http-password=yyyy "http://localhost/manager/text/reload?path=/service" -O -
-sudo chmod -R 755 /some/tomcat/webapps/service/
 sleep 5
+sudo chmod -R 755 /some/tomcat/webapps/service/
 sudo ls -l /some/tomcat/webapps/
 ```
 
