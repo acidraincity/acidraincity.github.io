@@ -51,3 +51,37 @@ The package tesseract:x64-windows provides CMake targets:
     target_link_libraries(main PRIVATE libtesseract)
 ```
 
+
+
+그런데 문제가 있어서 32비트 버전으로 다시 설치했습니다.
+
+(Error in pixCreateHeader: height must be > 0라는 런타임 오류 발생)
+
+```
+>vcpkg install tesseract:x86-windows --head
+```
+
+
+
+vcpkg\installed\x86-windows\tools\tesseract 경로에 실행 프로그램이 생성되는데요. 
+
+tesseract.exe 프로그램이 위치하는 폴더 하위에 tessdata 라는 이름의 폴더를 만들고 데이터 파일을 배치해야 합니다.
+
+<https://github.com/tesseract-ocr/tesseract/wiki/Data-Files>
+
+
+
+다음과 같이 실행할 수 있습니다.
+
+```
+>tesseract.exe D:\#_reservation\n.png output --oem 1 -l kor
+```
+
+
+
+
+
+
+
+
+
