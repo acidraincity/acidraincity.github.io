@@ -82,10 +82,16 @@ tesseract.exe 프로그램이 위치하는 폴더 하위에 tessdata 라는 이�
 아웃풋을 pdf로 생성하려면 다음과 같이 실행합니다.
 
 ```
->tesseract.exe n.png output --oem 1 --psm 3 -l kor pdf
+>tesseract.exe C:\path\list.txt C:\path\output --oem 1 -l kor -c textonly_pdf=1 -c tessedit_create_pdf=1
 ```
 
-그런데 이 경우에는 tessdata\configs\pdf 설정 파일이 준비되어 있어야 합니다.
+list.txt 에는 다음과 같이 OCR 대상 이미지의 리스트를 기입합니다.
+
+```
+C:\path\1.png
+C:\path\2.png
+C:\path\3.png
+```
 
 
 
