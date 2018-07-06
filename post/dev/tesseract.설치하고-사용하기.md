@@ -105,7 +105,7 @@ C:\path\3.png
 
 아웃풋을 pdf로 할 때, 생성되는 pdf 문서의 페이지 사이즈는 인풋 이미지의 DPI에 의해 결정됩니다.
 
-<<https://github.com/tesseract-ocr/tesseract/issues/150> >
+<https://github.com/tesseract-ocr/tesseract/issues/150>
 
 >Resolution (DPI) is extracted from the header of the input image. If missing, then Tesseract has no choice but to make something up. Don't do that! Many tools can be used to inspect and adjust DPI for an input image file. If you want to use ImageMagick, the commands are "identify -verbose" to inspect and "mogrify -density 300x300 -units PixelsPerInch" to set. 
 
