@@ -101,3 +101,8 @@ C:\path\3.png
 
 >Resolution (DPI) is extracted from the header of the input image. If missing, then Tesseract has no choice but to make something up. Don't do that! Many tools can be used to inspect and adjust DPI for an input image file. If you want to use ImageMagick, the commands are "identify -verbose" to inspect and "mogrify -density 300x300 -units PixelsPerInch" to set. 
 
+
+
+아래 포스트는 png 파일의 DPI를 설정할 수 있는 자바 코드를 보여줍니다.
+
+<https://stackoverflow.com/a/4833697>
