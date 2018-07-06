@@ -71,6 +71,14 @@ tesseract.exe 프로그램이 위치하는 폴더 하위에 tessdata 라는 이�
 
 
 
+그리고 아래의 파일들도 tessdata 하위에 배치하는게 좋습니다.
+
+<https://github.com/tesseract-ocr/tesseract/blob/master/tessdata/pdf.ttf>
+
+<https://github.com/tesseract-ocr/tessdata/blob/master/osd.traineddata>
+
+
+
 다음과 같이 실행할 수 있습니다.
 
 ```
