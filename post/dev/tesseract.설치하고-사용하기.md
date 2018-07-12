@@ -53,12 +53,18 @@ The package tesseract:x64-windows provides CMake targets:
 
 
 
-그런데 문제가 있어서 32비트 버전으로 다시 설치했습니다.
-
-(Error in pixCreateHeader: height must be > 0라는 런타임 오류 발생)
+그런데 문제(Error in pixCreateHeader: height must be > 0라는 런타임 오류 발생)가 있어서 32비트 버전으로 다시 설치했습니다.
 
 ```
 >vcpkg install tesseract:x86-windows --head
+```
+
+
+
+의존하는 라이브러리들을 별개의 dll이 아니라 exe 파일 안에 포함하려면 다음과 같이 빌드합니다.
+
+```
+>vcpkg install tesseract:x86-windows-static --head
 ```
 
 
@@ -76,6 +82,10 @@ tesseract.exe 프로그램이 위치하는 폴더 하위에 tessdata 라는 이�
 <https://github.com/tesseract-ocr/tesseract/blob/master/tessdata/pdf.ttf>
 
 <https://github.com/tesseract-ocr/tessdata/blob/master/osd.traineddata>
+
+
+
+이렇게 빌드된 프로그램은 VC++ redistributable 패키지에 의존성을 가집니다. 안좋은 점이네요.
 
 
 
@@ -114,3 +124,4 @@ C:\path\3.png
 아래 포스트는 png 파일의 DPI를 설정할 수 있는 자바 코드를 보여줍니다.
 
 <https://stackoverflow.com/a/4833697>
+
