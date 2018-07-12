@@ -87,6 +87,10 @@ tesseract.exe 프로그램이 위치하는 폴더 하위에 tessdata 라는 이�
 
 이렇게 빌드된 프로그램은 VC++ redistributable 패키지에 의존성을 가집니다. 안좋은 점이네요.
 
+아래의 인스톨러를 같이 배포해야 합니다. 더 좋은 방법이 있을까요.
+
+<https://aka.ms/vs/15/release/VC_redist.x86.exe>
+
 
 
 다음과 같이 실행할 수 있습니다.
