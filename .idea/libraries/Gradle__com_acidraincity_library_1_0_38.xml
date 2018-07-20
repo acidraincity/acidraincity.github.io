@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.acidraincity:library:1.0.38">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/acidraincity/library/1.0.38/library-1.0.38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
