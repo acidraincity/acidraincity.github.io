@@ -9,7 +9,10 @@
     <meta name="viewport" content="width=device-width">
     <script type="text/javascript" charset="UTF-8">
 		if( window.self !== window.top ){
-			document.domain = 'acidraincity.com';
+			// document.domain = 'acidraincity.com';
+			window.iFrameResizer = {
+				targetOrigin : 'http://acidraincity.com'
+			};
             if( window.top.document.domain !== 'acidraincity.com' ){
 				window.top.location.href=window.location.href;
             }
