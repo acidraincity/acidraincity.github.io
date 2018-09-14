@@ -17,12 +17,7 @@
 				window.top.location.href=window.location.href;
             }
             window.addEventListener( 'load', function(){
-            	// console.log( 'onload' );
-            	// console.log( parentIFrame );
-            	// if( !!parentIFrame ){
-            	// 	parentIFrame.scrollTo( 0, 0 );
-                // }
-                scrollTo( 0, 0 );
+                window.top.scrollTo( 0, 0 );
             } );
 		}
     </script>
@@ -81,8 +76,5 @@
     </footer>
 </div>
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-<script type="text/javascript" charset="UTF-8">
-
-</script>
 </body>
 </html>
