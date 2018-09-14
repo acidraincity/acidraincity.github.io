@@ -17,11 +17,12 @@
 				window.top.location.href=window.location.href;
             }
             window.addEventListener( 'load', function(){
-            	console.log( 'onload' );
-            	console.log( parentIFrame );
-            	if( !!parentIFrame ){
-            		parentIFrame.scrollTo( 0, 0 );
-                }
+            	// console.log( 'onload' );
+            	// console.log( parentIFrame );
+            	// if( !!parentIFrame ){
+            	// 	parentIFrame.scrollTo( 0, 0 );
+                // }
+                scrollTo( 0, 0 );
             } );
 		}
     </script>
@@ -81,8 +82,7 @@
 </div>
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 <script type="text/javascript" charset="UTF-8">
-    console.log( 'body done' );
-    console.log( parentIFrame );
+
 </script>
 </body>
 </html>
