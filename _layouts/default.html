@@ -17,6 +17,8 @@
 				window.top.location.href=window.location.href;
             }
             window.addEventListener( 'load', function(){
+            	console.log( 'onload' );
+            	console.log( window.parentIFrame );
             	if( !!window.parentIFrame ){
             		window.parentIFrame.scrollTo( 0, 0 );
                 }
