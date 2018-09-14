@@ -16,9 +16,9 @@
             if( window.top.document.domain !== 'acidraincity.com' ){
 				window.top.location.href=window.location.href;
             }
-            window.addEventListener( 'load', function(){
-                window.top.scrollTo( 0, 0 );
-            } );
+            // window.addEventListener( 'load', function(){
+            //     window.top.scrollTo( 0, 0 );
+            // } );
 		}
     </script>
     <!--https://github.com/davidjbradshaw/iframe-resizer-->
@@ -38,9 +38,11 @@
             width:auto;
         }
     </style>
-
 </head>
 <body>
+<script type="text/javascript" charset="UTF-8">
+    window.top.scrollTo( 0, 0 );
+</script>
 <div class="wrapper">
     <header>
         <h1><a href="http://acidraincity.github.io">{{ site.title | default: site.github.repository_name }}</a></h1>
