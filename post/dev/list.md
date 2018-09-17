@@ -34,6 +34,7 @@
 
 #### javascript
 
+- [로컬 모듈을 의존성 등록하기](javascript.로컬-모듈을-의존성-등록하기)
 - [DOM 메소드와 프로퍼티](javascript.DOM-메소드와-프로퍼티)
 - [Promise.race()를 이용한 타임아웃 처리](javascript.Promise.race()를-이용한-타임아웃-처리)
 - [x-tag를 사용해서 웹컴포넌트 구현하기](javascript.x-tag를-사용해서-웹컴포넌트-구현하기)
