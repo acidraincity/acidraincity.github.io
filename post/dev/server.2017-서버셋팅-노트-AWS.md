@@ -134,6 +134,10 @@ workers.java_home=/usr/lib/jvm/java-8-openjdk-amd64
 
 톰캣을 www-data 그룹의 유저로 실행시켜 이러한 권한문제를 회피하려 합니다.
 
+
+
+======== 내용 취소 시작 ======== 
+
 우선 root 유저를 www-data 그룹에 추가합니다.
 
 [참고자료](https://devnoff.wordpress.com/2016/01/23/%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A5%BC-%EA%B7%B8%EB%A3%B9%EC%97%90-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/)
@@ -159,6 +163,34 @@ chown -R www-data:root ./apache-tomcat-8.5.24
 ```
 newgrp www-data
 ./catalina.sh start
+```
+
+======== 내용 취소 끝 ========
+
+
+
+그냥 다음과 같이 합시다.
+
+톰캣 폴더 소유권을 www-data 에게 줍니다.
+
+```
+chown -R www-data:www-data ./apache-tomcat-8.5.24
+```
+
+
+
+톰캣을 실행시키는 것도 www-data 사용자 권한으로 합니다.
+
+```
+sudo -u www-data ./catalina.sh start
+```
+
+
+
+톰캣을 중지시키는 것은 루트권한으로 해야지 그 다음 시작할 때 문제가 발생하지 않았습니다.
+
+```
+sudo ./catalina.sh stop
 ```
 
 
