@@ -60,7 +60,7 @@ apt-get install libapache2-mod-jk
 
 매니저 컨텍스트에 원격 호스트에서도 접속할 수 있기 위해서 webapp/manager/META-INF/context.xml 의 다음 항목을 주석처리합니다.
 
-```
+```xml
 <Context antiResourceLocking="false" privileged="true" >
   <!--<Valve className="org.apache.catalina.valves.RemoteAddrValve"
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />-->
@@ -69,7 +69,7 @@ apt-get install libapache2-mod-jk
 
 관리콘솔을 이용할 수 있는 계정을 conf/tomcat-user.xml 파일에 등록합니다.
 
-```
+```xml
 <role rolename="manager-gui"/>
 <role rolename="manager-script"/>
 <role rolename="manager-jmx"/>
@@ -77,6 +77,15 @@ apt-get install libapache2-mod-jk
 <user username="사용자명" password="패스워드" roles="manager-gui,manager-script,manager-jmx,manager-status"/>
 
 ```
+
+server.xml 에서 자동배포 기능은 비활성화합니다.
+
+```xml
+<Host name="localhost"  appBase="webapps"
+            unpackWARs="true" autoDeploy="false">
+```
+
+
 
 /etc/libapache2-mod-jk/workers.properties 의 자바경로와 톰캣경로 수정합니다.
 
@@ -90,7 +99,7 @@ workers.java_home=/usr/lib/jvm/java-8-openjdk-amd64
 - JkMount 설정을 추가합니다.
 - DocumentRoot를 톰캣 웹앱 폴더로 맞춰주고 해당 디렉토리에 대한 설정을 추가합니다.
 
-```
+```xml
 <VirtualHost *:80>
 	ServerName acidraincity.com
 	ServerAlias www.acidraincity.com
