@@ -1,0 +1,452 @@
+[
+    {
+        "type" : {
+            "id" : 2,
+            "name_ko" : "야수",
+            "name_ja" : "野獸",
+            "name_en" : "Beast",
+            "color" : 3480693
+        },
+        "monsters" : [
+            {
+                "id" : "PBE0",
+                "name_ko" : "곰",
+                "name_ja" : "クマ",
+                "name_en" : "Bear",
+                "color" : 16777215,
+                "at_monster_type_id" : 2,
+                "initial" : "b"
+            },
+            {
+                "id" : "PBE1",
+                "name_ko" : "동굴코뿔소",
+                "name_ja" : "洞窟サイ",
+                "name_en" : "Cave Rhino",
+                "color" : 16777215,
+                "at_monster_type_id" : 2,
+                "initial" : "r"
+            },
+            {
+                "id" : "PBE0a",
+                "name_ko" : "큰곰",
+                "name_ja" : "大きいクマ",
+                "name_en" : "Big Bear",
+                "color" : 16777215,
+                "at_monster_type_id" : 2,
+                "initial" : "b"
+            },
+            {
+                "id" : "PBE0b",
+                "name_ko" : "독곰",
+                "name_ja" : "毒クマ",
+                "name_en" : "Poison Bear",
+                "color" : 16711680,
+                "at_monster_type_id" : 2,
+                "initial" : "b"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 3,
+            "name_ko" : "어둠",
+            "name_ja" : "闇",
+            "name_en" : "Darkness",
+            "color" : 0
+        },
+        "monsters" : [
+            {
+                "id" : "PDA0",
+                "name_ko" : "집착",
+                "name_ja" : "執着",
+                "name_en" : "Obsession",
+                "color" : 16777215,
+                "at_monster_type_id" : 3,
+                "initial" : "o"
+            },
+            {
+                "id" : "PDA1",
+                "name_ko" : "배척",
+                "name_ja" : "排斥",
+                "name_en" : "Exclusion",
+                "color" : 16777215,
+                "at_monster_type_id" : 3,
+                "initial" : "e"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 4,
+            "name_ko" : "요괴",
+            "name_ja" : "妖怪",
+            "name_en" : "Yokai",
+            "color" : 10898809
+        },
+        "monsters" : [
+            {
+                "id" : "PYO0",
+                "name_ko" : "긴발톱요괴",
+                "name_ja" : "長い爪妖怪",
+                "name_en" : "Long-Claw Yokai",
+                "color" : 16777215,
+                "at_monster_type_id" : 4,
+                "initial" : "c"
+            },
+            {
+                "id" : "PYO1",
+                "name_ko" : "구미호",
+                "name_ja" : "九尾狐",
+                "name_en" : "Nine-Tailed Fox",
+                "color" : 16777215,
+                "at_monster_type_id" : 4,
+                "initial" : "f"
+            },
+            {
+                "id" : "PYO2",
+                "name_ko" : "서큐버스",
+                "name_ja" : "サキュバス",
+                "name_en" : "Succubus",
+                "color" : 16777215,
+                "at_monster_type_id" : 4,
+                "initial" : "s"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 5,
+            "name_ko" : "악령",
+            "name_ja" : "惡靈",
+            "name_en" : "Spirit",
+            "color" : 545
+        },
+        "monsters" : [
+            {
+                "id" : "PSP0",
+                "name_ko" : "유령고양이",
+                "name_ja" : "幽靈猫",
+                "name_en" : "Ghost Cat",
+                "color" : 16777215,
+                "at_monster_type_id" : 5,
+                "initial" : "c"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 6,
+            "name_ko" : "기계",
+            "name_ja" : "機械",
+            "name_en" : "Machine",
+            "color" : 6382654
+        },
+        "monsters" : [
+            {
+                "id" : "PMA0",
+                "name_ko" : "헤비아머",
+                "name_ja" : "ヘビーアーマー",
+                "name_en" : "Heavy Armor",
+                "color" : 16777215,
+                "at_monster_type_id" : 6,
+                "initial" : "h"
+            },
+            {
+                "id" : "PMA1",
+                "name_ko" : "기계병",
+                "name_ja" : "機械兵",
+                "name_en" : "Machine Soldier",
+                "color" : 16777215,
+                "at_monster_type_id" : 6,
+                "initial" : "a"
+            },
+            {
+                "id" : "PMA1a",
+                "name_ko" : "엘리트기계병",
+                "name_ja" : "エリート機械兵",
+                "name_en" : "Elite Machine Soldier",
+                "color" : 16753841,
+                "at_monster_type_id" : 6,
+                "initial" : "a"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 7,
+            "name_ko" : "변절자",
+            "name_ja" : "変節者",
+            "name_en" : "Apostate",
+            "color" : 3110998
+        },
+        "monsters" : [
+            {
+                "id" : "PAP0",
+                "name_ko" : "매드슈터",
+                "name_ja" : "マッドシューター",
+                "name_en" : "Mad Shooter",
+                "color" : 16777215,
+                "at_monster_type_id" : 7,
+                "initial" : "s"
+            },
+            {
+                "id" : "PAP1",
+                "name_ko" : "좀비",
+                "name_ja" : "ゾンビ",
+                "name_en" : "Zombie",
+                "color" : 16777215,
+                "at_monster_type_id" : 7,
+                "initial" : "z"
+            },
+            {
+                "id" : "PAP2",
+                "name_ko" : "흑마법사",
+                "name_ja" : "黒の魔法使い",
+                "name_en" : "Warlock",
+                "color" : 16777215,
+                "at_monster_type_id" : 7,
+                "initial" : "w"
+            },
+            {
+                "id" : "PAP3",
+                "name_ko" : "교주",
+                "name_ja" : "教主",
+                "name_en" : "Religionist",
+                "color" : 16777215,
+                "at_monster_type_id" : 7,
+                "initial" : "r"
+            },
+            {
+                "id" : "PAP4",
+                "name_ko" : "닌자",
+                "name_ja" : "忍者",
+                "name_en" : "Ninja",
+                "color" : 16777215,
+                "at_monster_type_id" : 7,
+                "initial" : "n"
+            },
+            {
+                "id" : "PAP0a",
+                "name_ko" : "샤프슈터",
+                "name_ja" : "シャープシューター",
+                "name_en" : "Sharp Shooter",
+                "color" : 16767334,
+                "at_monster_type_id" : 7,
+                "initial" : "s"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 8,
+            "name_ko" : "장치",
+            "name_ja" : "裝置",
+            "name_en" : "Device",
+            "color" : 11106139
+        },
+        "monsters" : [
+            {
+                "id" : "PDE0",
+                "name_ko" : "APD필드생성기",
+                "name_ja" : "APDフィールドジェネレータ",
+                "name_en" : "APD-Field Generator",
+                "color" : 16777215,
+                "at_monster_type_id" : 8,
+                "initial" : "g"
+            },
+            {
+                "id" : "PDE1",
+                "name_ko" : "방어장치",
+                "name_ja" : "防御装置",
+                "name_en" : "Defensive Device",
+                "color" : 16777215,
+                "at_monster_type_id" : 8,
+                "initial" : "d"
+            },
+            {
+                "id" : "PDE0a",
+                "name_ko" : "APU필드생성기",
+                "name_ja" : "APUフィールドジェネレータ",
+                "name_en" : "APU-Field Generator",
+                "color" : 16777215,
+                "at_monster_type_id" : 8,
+                "initial" : "g"
+            },
+            {
+                "id" : "PDE0b",
+                "name_ko" : "SU필드생성기",
+                "name_ja" : "SUフィールドジェネレータ",
+                "name_en" : "SU-Field Generator",
+                "color" : 16777215,
+                "at_monster_type_id" : 8,
+                "initial" : "g"
+            },
+            {
+                "id" : "PDE1a",
+                "name_ko" : "근잡방어장치",
+                "name_ja" : "近接防御装置",
+                "name_en" : "Proximity Defense Device",
+                "color" : 10797812,
+                "at_monster_type_id" : 8,
+                "initial" : "d"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 9,
+            "name_ko" : "침략자",
+            "name_ja" : "インベーダー",
+            "name_en" : "Invader",
+            "color" : 13839962
+        },
+        "monsters" : [
+            {
+                "id" : "TIN0",
+                "name_ko" : "프로메나블러드-타입1",
+                "name_ja" : "プロメナブラッド＝タイプ1",
+                "name_en" : "PromenaBlood-Type1",
+                "color" : 16777215,
+                "at_monster_type_id" : 9,
+                "initial" : "1"
+            },
+            {
+                "id" : "TIN1",
+                "name_ko" : "프로메나블러드-타입2",
+                "name_ja" : "プロメナブラッド＝タイプ2",
+                "name_en" : "PromenaBlood-Type2",
+                "color" : 16777215,
+                "at_monster_type_id" : 9,
+                "initial" : "2"
+            },
+            {
+                "id" : "TIN2",
+                "name_ko" : "프로메나블러드-타입3",
+                "name_ja" : "プロメナブラッド＝タイプ3",
+                "name_en" : "PromenaBlood-Type3",
+                "color" : 16777215,
+                "at_monster_type_id" : 9,
+                "initial" : "3"
+            },
+            {
+                "id" : "TIN3",
+                "name_ko" : "프로메나블러드-타입4",
+                "name_ja" : "プロメナブラッド＝タイプ4",
+                "name_en" : "PromenaBlood-Type4",
+                "color" : 16777215,
+                "at_monster_type_id" : 9,
+                "initial" : "4"
+            },
+            {
+                "id" : "TIN4",
+                "name_ko" : "프로메나블러드-타입5",
+                "name_ja" : "プロメナブラッド＝タイプ5",
+                "name_en" : "PromenaBlood-Type5",
+                "color" : 16777215,
+                "at_monster_type_id" : 9,
+                "initial" : "5"
+            }
+        ]
+    },
+    {
+        "type" : {
+            "id" : 1,
+            "name_ko" : "네임드",
+            "name_ja" : "ネームド",
+            "name_en" : "Named",
+            "color" : 12658628
+        },
+        "monsters" : [
+            {
+                "id" : "N0",
+                "name_ko" : "블래스터",
+                "name_ja" : "ブラスター",
+                "name_en" : "Blaster",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "B"
+            },
+            {
+                "id" : "N1",
+                "name_ko" : "칼리",
+                "name_ja" : "カーリー",
+                "name_en" : "Kali",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "K"
+            },
+            {
+                "id" : "N2",
+                "name_ko" : "동굴코뿔소 왕",
+                "name_ja" : "洞窟サイの王",
+                "name_en" : "King of Cave Rhino",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "R"
+            },
+            {
+                "id" : "N3",
+                "name_ko" : "래스",
+                "name_ja" : "ラス",
+                "name_en" : "Lass",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "@"
+            },
+            {
+                "id" : "N4",
+                "name_ko" : "미스트",
+                "name_ja" : "ミスト",
+                "name_en" : "Mist",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "M"
+            },
+            {
+                "id" : "N5",
+                "name_ko" : "최종궁극보스 프로메나",
+                "name_ja" : "最終窮極ボス＝プロメナ",
+                "name_en" : "ULTIMATE BOSS PROMENA",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "P"
+            },
+            {
+                "id" : "N6",
+                "name_ko" : "뱀파이어",
+                "name_ja" : "バンパイア",
+                "name_en" : "Vampire",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "V"
+            },
+            {
+                "id" : "N7",
+                "name_ko" : "비스트 드래곤",
+                "name_ja" : "ビースト・ドラゴン",
+                "name_en" : "Beast Dragon",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "D"
+            },
+            {
+                "id" : "N8",
+                "name_ko" : "샌드 드래곤",
+                "name_ja" : "サンド・ドラゴン",
+                "name_en" : "Sand Dragon",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "D"
+            },
+            {
+                "id" : "N9",
+                "name_ko" : "릴리스",
+                "name_ja" : "リリース",
+                "name_en" : "Lilith",
+                "color" : 16777215,
+                "at_monster_type_id" : 1,
+                "initial" : "L"
+            }
+        ]
+    }
+]
