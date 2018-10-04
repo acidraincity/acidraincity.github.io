@@ -1,4 +1,13 @@
-# Career
+# 개발 업무 진행
+
+
+
+#### 2018~2017년
+
+- 인터렉티브 PDF 문서를 HTML5기반 멀티플랫폼(데스크탑,모바일,웹) 앱으로 변환하는 PDF NEXT 제품 개발
+- 비상교육 차세대 교수학습자료 프로젝트 진행 (교육용 인터렉티브 콘텐츠 저작, 서비스 툴체인)
+- PDF 문서 기반의 WebRTC 협업 솔루션, [Aproshe Massanger](http://product.aproshe.com/messenger/index.html) 개발
+- 콘텐츠 서비스 플랫폼 [aproshe.com](http://aproshe.com) 개발
 
 
 
