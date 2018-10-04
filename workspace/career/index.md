@@ -26,13 +26,14 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P3JQnSZBQcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-#### 
+
 
 #### 2010년
 
 - 현대카드,캐피탈 전자문서 시스템 구축 프로젝트 수행
   - 전자문서 시스템 설계 및 구현 ( J2EE, ActiveX )
   - 레가시 시스템 연계,통합
+
 
 
 #### 2009년
@@ -47,6 +48,7 @@
   - Adobe AIR 클라이언트 및 JAVA 서버 어플리케이션 구현
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ODJFta8T-P8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 
 #### 2008년
@@ -73,6 +75,8 @@
   - 인터넷교보문고 전자책 서비스
   - VL B2B컨텐츠 패키징 프로그램
 
+
+
 #### 2007년
 
 - 뉴스뱅크 개발
@@ -87,13 +91,19 @@
   - IKPRM CC관리자모듈 리뉴얼
 - 교보생명 e상품갤러리 DRM 프로젝트(1차)
 
+
+
 #### 2006년
 
 - 디지털교보문고, eBook 서비스 시스템 개발
 
+
+
 #### 2005년
 
 - 큐필드 전자상거래 및 응용시스템 개발
+
+
 
 #### 2003년 ~ 2004년
 
