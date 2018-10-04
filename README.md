@@ -3,6 +3,8 @@
 - [메모](post/dev/list)
 - [Image of Acidraincity](https://goo.gl/photos/BhSB6Ns8DFU3nguB7){:target="_blank"}
 
+- [개발 경력](workspace/career/index)
+
 
 
 기억나지 않는 시간들이 많아집니다. 
