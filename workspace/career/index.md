@@ -4,16 +4,19 @@
 
 #### 2018~2017년
 
-- 인터렉티브 PDF 문서를 HTML5기반 멀티플랫폼(데스크탑,모바일,웹) 앱으로 자동 변환하는 PDF NEXT 제품 개발
-- 비상교육 차세대 교수학습자료 프로젝트 진행 (교육용 인터렉티브 콘텐츠 저작, 서비스 툴체인)
-- PDF 문서 기반의 WebRTC 협업 솔루션, [Aproshe Massanger](http://product.aproshe.com/messenger/index.html) 개발
-- 콘텐츠 서비스 플랫폼 [aproshe.com](http://aproshe.com) 개발
+- PDF to HTML5 솔루션, PDF NEXT 개발.  
+  - 인터렉티브 기능이 포함된 PDF 파일을 HTML5기반 콘텐츠앱으로 자동변환하는 제품
+  - 멀티플랫폼(데스크탑,모바일,웹)에서 즉시 실행 가능한 결과물 제공
+- 비상교육 차세대 교수학습자료 프로젝트 진행 
+  - 인터렉티브 기능이 포함된 디지털 교수자료의 웹서비스용 뷰어 개발
+- PDF 문서 기반의 영상(WebRTC) 협업 솔루션, [Aproshe Massanger](http://product.aproshe.com/messenger/index.html){:target="_blank"} 개발
+- 콘텐츠 서비스 플랫폼 [aproshe.com](http://aproshe.com){:target="_blank"} 개발
 
 
 
 #### 2015년~2016년
 
-- 무설치 HTML5 PDF 리더 솔루션, [ezPDF WebViewer](webviewer) 개발.
+- 무설치 HTML5 PDF 리더 솔루션, [ezPDF WebViewer](webviewer){:target="_blank"} 개발.
   - 삼성SDS, 대림산업 등 납품.
 - 안드로이드 eduPDF 라이브러리 기능 고도화, 제품화.
   - 교보문고, yes24, EBS, 큐북 등
@@ -25,8 +28,8 @@
 
 #### 2010~2014년
 
-- 안드로이드 PDF 리더 앱, [ezPDF Reader](ezpdfreader) 개발
-- 안드로이드,IOS 스크랩 앱, [CUP](cup) 개발
+- 안드로이드 PDF 리더 앱, [ezPDF Reader](ezpdfreader){:target="_blank"} 개발
+- 안드로이드,IOS 스크랩 앱, [CUP](cup){:target="_blank"} 개발
 - 안드로이드 ezPDF Clear 문제풀이 기능 개발
 - 안드로이드 PDFView 라이브러리 개발. 라이브러리 적용한 앱 개발 지원
   - 대법원, 교보문고, 티스마트러닝, 삼성전자, 삼성생명, 한국이퍼브, 메시아엔씨, y2books, NEC, 언론재단 등
