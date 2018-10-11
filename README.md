@@ -2,7 +2,7 @@
 - [끄적거림. 2007년 12월 1일 - 2012년 7월 10일](workspace/20071201-20120710.html){:target="_blank"}
 - [메모](post/dev/list)
 - [Image of Acidraincity](https://goo.gl/photos/BhSB6Ns8DFU3nguB7){:target="_blank"}
-- [개발 경력](workspace/career/index)
+- [Career](workspace/career/index)
 
 기억나지 않는 시간들이 많아집니다. 
 
