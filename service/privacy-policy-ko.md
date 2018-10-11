@@ -66,7 +66,7 @@ ACIDRAINCITY(https://acidraincity.com)는 원칙적으로 개인정보 처리목
 
 
 
-**9. 개인정보의 안전성 확보 조치 **
+**9. 개인정보의 안전성 확보 조치**
 
 ACIDRAINCITY(https://acidraincity.com)는 개인정보보호법 제29조에 따라 다음과 같이 안전성 확보에 필요한 기술적/관리적 및 물리적 조치를 하고 있습니다.
 
