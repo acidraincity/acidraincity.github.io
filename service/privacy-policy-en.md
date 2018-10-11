@@ -77,7 +77,7 @@ If, in order to exercise the above options, you, as an user, can send e-mails to
 
 **5. Security**
 
-The Company regards the security of personal information of uses as very important. The company constructs the following security measures to protect the users' personal information from any unauthorized access, release, use or modification
+ACIDRAINCITY(https://acidraincity.com) regards the security of personal information of uses as very important. The company constructs the following security measures to protect the users' personal information from any unauthorized access, release, use or modification
 
 - Encryption of personal information
 
@@ -91,13 +91,13 @@ The Company regards the security of personal information of uses as very importa
 
 **6. Modification of Privacy Protection Policy**
 
-The Company has the right to amend or modify this Policy from time to time and, in such case, the Company will make a public notice of it through bulletin board of its website (or through individual notice such as written document, fax or e-mail) and obtain consent from the users if required by relevant laws.
+ACIDRAINCITY(https://acidraincity.com) has the right to amend or modify this Policy from time to time and, in such case, the Company will make a public notice of it through bulletin board of its website (or through individual notice such as written document, fax or e-mail) and obtain consent from the users if required by relevant laws.
 
 
 
 **7. Responsible department of Company**
 
-The Company designates the following department and person in charge of personal information in order to protect personal information of customers and deal with complaints from customers:
+ACIDRAINCITY(https://acidraincity.com) designates the following department and person in charge of personal information in order to protect personal information of customers and deal with complaints from customers:
 
 - Department responsible for privacy protection and customer service :
 
