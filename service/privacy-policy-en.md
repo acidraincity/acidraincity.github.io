@@ -2,9 +2,9 @@
 
 
 
-This Privacy Policy (the "Policy") explains the way of treatment of the information which is provided or collected in the websites on which this Policy is posted. In addition the Policy also explains the information which is provided or collected in the course of using the applications of the Company which exist in the websites or platforms of other company.
+This Privacy Policy (the "Policy") explains the way of treatment of the information which is provided or collected in ACIDRAINCITY(https://acidraincity.com). In addition the Policy also explains the information which is provided or collected in the course of using the applications of the Company which exist in the websites or platforms of other company.
 
-Through this Policy, the Company regards personal information of the users as important and inform them of the purpose and method of Company's using the personal information provided by the users and the measures taken by the Company for protection of those personal information.
+Through this Policy, ACIDRAINCITY(https://acidraincity.com) regards personal information of the users as important and inform them of the purpose and method of ACIDRAINCITY(https://acidraincity.com)'s using the personal information provided by the users and the measures taken by ACIDRAINCITY(https://acidraincity.com) for protection of those personal information.
 
 
 
@@ -12,7 +12,7 @@ Through this Policy, the Company regards personal information of the users as im
 
 (1) Personal information items to be collected
 
-Personal information items to be collected by the Company are as follows:
+Personal information items to be collected by ACIDRAINCITY(https://acidraincity.com) are as follows:
 
 - Information provided by the users
 
@@ -25,7 +25,7 @@ Personal information items to be collected by the Company are as follows:
 
 (2) Method of collection
 
-The Company collects the information of users in a way of the followings:
+ACIDRAINCITY(https://acidraincity.com) collects the information of users in a way of the followings:
 
 - written form
 
@@ -33,22 +33,22 @@ The Company collects the information of users in a way of the followings:
 
 **2. Use of collected information**
 
-The Company uses the collected information of users for the following purposes:
+ACIDRAINCITY(https://acidraincity.com) uses the collected information of users for the following purposes:
 
 - Member management and identification
 
-The Company agrees that it will obtain consent from the users, if the Company desires to use the information other than those expressly stated in this Policy.
+ACIDRAINCITY(https://acidraincity.com) agrees that it will obtain consent from the users, if ACIDRAINCITY(https://acidraincity.com) desires to use the information other than those expressly stated in this Policy.
 
 
 
 **3. Sharing collected information**
 
-Except for the following cases, the Company will not share personal information with a 3rd party:
+Except for the following cases, ACIDRAINCITY(https://acidraincity.com) will not share personal information with a 3rd party:
 
-- when the Company shares the information with its affiliates, partners and service providers;
-  - When the Company's affiliates, partners and service providers carry out services such as bill
+- when ACIDRAINCITY(https://acidraincity.com) shares the information with its affiliates, partners and service providers;
+  - When ACIDRAINCITY(https://acidraincity.com)'s affiliates, partners and service providers carry out services such as bill
     payment, execution of orders, products delivery and dispute resolution (including disputes on
-    payment and delivery) for and on behalf of the Company.
+    payment and delivery) for and on behalf of ACIDRAINCITY(https://acidraincity.com).
 
 - when the users consent the sharing in advance
   - when the user selects to be provided by the information of products and services of certain
@@ -65,13 +65,13 @@ Except for the following cases, the Company will not share personal information 
 
 **4. Users' right to access and option**
 
-The users or their legal representatives, as main agents of the information, may exercise the following options regarding the collection, use and sharing of personal information by the Company:
+The users or their legal representatives, as main agents of the information, may exercise the following options regarding the collection, use and sharing of personal information by ACIDRAINCITY(https://acidraincity.com):
 
 - exercise right to access to personal information
 
 - make corrections or deletion
 
-If, in order to exercise the above options, you, as an user, can send e-mails to the responsible department (or person in charge of management of personal information).
+If, in order to exercise the above options, you, as an user, can send e-mails to the responsible department (or person in charge of management of personal information). ACIDRAINCITY(https://acidraincity.com) will take measures without delay: Provided that the Company may reject the request of you only to the extent that there exists either proper cause as prescribed in the laws or equivalent cause. 
 
 
 
