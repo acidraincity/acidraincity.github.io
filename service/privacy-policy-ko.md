@@ -54,7 +54,6 @@ ACIDRAINCITY(https://acidraincity.com)는 원칙적으로 개인정보 처리목
 
 ▶ 개인정보 보호책임자 
 성명 :전용태
-직책 :운영자
 연락처 :jeon.creative.studio@gmail.com
 
 ② 정보주체께서는 ACIDRAINCITY(https://acidraincity.com)의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자에게 문의하실 수 있습니다. ACIDRAINCITY(https://acidraincity.com)는 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.
