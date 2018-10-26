@@ -7,6 +7,7 @@
 - PDF to HTML5 솔루션, PDF NEXT 개발.  
   - 인터렉티브 기능이 포함된 PDF 파일을 HTML5기반 콘텐츠앱으로 자동변환하는 제품
   - 멀티플랫폼(데스크탑,모바일,웹)에서 즉시 실행 가능한 결과물 제공
+  - 주니어 네이버, 천재교육 등 콘텐츠 저작 툴체인으로 납품
 - 비상교육 차세대 교수학습자료 프로젝트 진행 
   - 인터렉티브 기능이 포함된 디지털 교수자료의 웹서비스용 뷰어 개발
 - PDF 문서 기반의 영상(WebRTC) 협업 솔루션, [Aproshe Massanger](http://product.aproshe.com/messenger/index.html){:target="_blank"} 개발
@@ -16,9 +17,9 @@
 
 #### 2015년~2016년
 
-- 무설치 HTML5 PDF 리더 솔루션, [ezPDF WebViewer](webviewer){:target="_blank"} 개발.
-  - 삼성SDS, 대림산업 등 납품.
-- 안드로이드 eduPDF 라이브러리 기능 고도화, 제품화.
+- 무설치 HTML5 PDF 리더 솔루션, [ezPDF WebViewer](webviewer){:target="_blank"} 개발
+  - 삼성SDS, 대림산업 등 납품
+- 안드로이드 eduPDF 라이브러리 기능 고도화, 제품화
   - 교보문고, yes24, EBS, 큐북 등
 - P2P 탐색 및 통신 라이브러리 개발(커넥티드 클래스룸 솔루션)
 - 페이퍼리스 서식 처리 솔루션 고도화
