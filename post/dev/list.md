@@ -90,6 +90,7 @@
 # typescript
 
 - [nodejs 타입정보 추가하기](typescript.nodejs-타입정보-추가하기)
+- [customElements.define 사용하기](typescript.customElements.define-사용하기)
 
 
 
