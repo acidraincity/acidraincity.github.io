@@ -111,13 +111,7 @@ workers.java_home=/usr/lib/jvm/java-8-openjdk-amd64
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 	JkMount /* ajp13_worker
-        JkUnMount /*.html ajp13_worker
-        JkUnMount /*.jpg ajp13_worker
-        JkUnMount /*.png ajp13_worker
-        JkUnMount /*.gif ajp13_worker
-	JkUnMount /*.svg ajp13_worker
-        JkUnMount /*.css ajp13_worker
-        JkUnMount /*.js ajp13_worker
+    JkUnMount /.well-known/* ajp13_worker
 
 	<Directory /home/app/apache-tomcat-8.5.24/webapps>
   		Options FollowSymLinks
@@ -374,6 +368,10 @@ certbot 프로그램이 인증서 발급 및 아파치 설정을 처리해줍니
 ```
 certbot --apache -d acidraincity.com -d www.acidraincity.com -d ats.acidraincity.com
 ```
+
+
+
+인증을 위해, 웹서버를 통해 `/.well-known/acme-challenge/` 하위 경로로 요청을 보낼 수 있도록 구성되어 있어야 합니다.
 
 
 
