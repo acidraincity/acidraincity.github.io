@@ -30,7 +30,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe
 Exception: dbghelp.dll not found in "C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\dbghelp.dll"
 ```
 
-이 때에는 아래 링크를 참고해서 Windows SDK (ver. 10.0.16299.91) 을 설치해야 합니다.
+이 때에는 아래 링크를 참고해서 Windows SDK 을 설치해야 합니다.
 
 <https://groups.google.com/a/chromium.org/forum/#!msg/chromium-dev/PsqFiJ-j5B4/9wO3wflWCQAJ>
 
