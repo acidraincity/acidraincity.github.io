@@ -1,3 +1,6 @@
+$ git
+- [설정확인하기](git.설정확인하기)
+
 # blender
 
 - [MacOS에서의 플러그인 설치 경로](blender.MacOS에서의-플러그인-설치-경로)
