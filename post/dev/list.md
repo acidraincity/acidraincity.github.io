@@ -32,7 +32,7 @@ $ git
 - [반복되는 패턴 이미지 만들기](android.반복되는-패턴-이미지-만들기)
 - [Activity의 ContentView를 특정 Fragment로 초기화하는 코드](android.Activity의-ContentView를-특정-Fragment로-초기화하는-코드)
 - [크롬북에서 동작하는 안드로이드앱 개발환경 구성](android.크롬북에서-동작하는-안드로이드앱-개발환경-구성)
-
+- [wifi를 통한 adb연결](android.wifi를-통한-adb연결)
 
 
 # kotlin
