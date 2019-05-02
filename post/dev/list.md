@@ -1,3 +1,7 @@
+$ git
+- [설정확인하기](git.설정확인하기)
+
+
 # blender
 
 - [MacOS에서의 플러그인 설치 경로](blender.MacOS에서의-플러그인-설치-경로)
@@ -28,7 +32,7 @@
 - [반복되는 패턴 이미지 만들기](android.반복되는-패턴-이미지-만들기)
 - [Activity의 ContentView를 특정 Fragment로 초기화하는 코드](android.Activity의-ContentView를-특정-Fragment로-초기화하는-코드)
 - [크롬북에서 동작하는 안드로이드앱 개발환경 구성](android.크롬북에서-동작하는-안드로이드앱-개발환경-구성)
-
+- [wifi를 통한 adb연결](android.wifi를-통한-adb연결)
 
 
 # kotlin
@@ -97,6 +101,8 @@
 # windows
 
 - [소프트링크 만들기](windows.소프트링크-만들기)
+
+- [SMB 접속시 MS계정으로 로그인이 안될 때](windows.SMB-접속시-MS계정으로-로그인이-안될-때)
 
 
 
