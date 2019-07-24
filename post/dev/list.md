@@ -33,7 +33,7 @@ $ git
 - [Activity의 ContentView를 특정 Fragment로 초기화하는 코드](android.Activity의-ContentView를-특정-Fragment로-초기화하는-코드)
 - [크롬북에서 동작하는 안드로이드앱 개발환경 구성](android.크롬북에서-동작하는-안드로이드앱-개발환경-구성)
 - [wifi를 통한 adb연결](android.wifi를-통한-adb연결)
-
+- [Data binding 관련 자료들](android.Data-binding-관련-자료들)
 
 # kotlin
 
