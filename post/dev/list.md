@@ -60,6 +60,7 @@
 
 # javascript
 
+- [git 프로젝트를 의존성 등록하기](javascript.git-프로젝트를-의존성-등록하기)
 - [로컬 모듈을 의존성 등록하기](javascript.로컬-모듈을-의존성-등록하기)
 - [DOM 메소드와 프로퍼티](javascript.DOM-메소드와-프로퍼티)
 - [Promise.race()를 이용한 타임아웃 처리](javascript.Promise.race()를-이용한-타임아웃-처리)
