@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -8,32 +8,32 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
     <script type="text/javascript" charset="UTF-8">
-		if( window.self !== window.top ){
-			document.domain = 'acidraincity.com';
-            if( window.top.document.domain !== 'acidraincity.com' ){
-				window.top.location.href=window.location.href;
-            }
-		}
+      document.domain = 'acidraincity.com';
+      if (window.self !== window.top) {
+        if (window.top.document.domain !== 'acidraincity.com') {
+          window.top.location.href = window.location.href;
+        }
+      }
     </script>
     <style type="text/css">
         div.wrapper {
-            width:auto;
-            margin:0;
+            width: auto;
+            margin: 0;
         }
 
         header, section, footer {
-            float:none;
-            position:static;
-            width:auto;
+            float: none;
+            position: static;
+            width: auto;
         }
     </style>
 </head>
 <body>
 <script type="text/javascript" charset="UTF-8">
-    function onMenuLoad() {
-        var f = document.getElementById('menuFrame');
-        f.style.height = f.contentWindow.document.body.scrollHeight
-    }
+  function onMenuLoad() {
+    var f = document.getElementById('menuFrame');
+    f.style.height = f.contentWindow.document.body.scrollHeight;
+  }
 </script>
 <div class="wrapper">
     <header>
@@ -42,7 +42,8 @@
         <!--<p>{{ site.description | default: site.github.project_tagline }}</p>-->
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name
+            }}</small></a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
@@ -68,21 +69,21 @@
         {% endif %}
         <!--<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>-->
 
-        <iframe 
-                id="menuFrame" 
-                src="https://acidraincity.com/jeon/menu" 
-                onload="onMenuLoad();" 
+        <iframe
+                id="menuFrame"
+                src="https://acidraincity.com/jeon/menu"
+                onload="onMenuLoad();"
                 frameborder="0"
                 scrolling="no"
                 style="overflow: hidden;width: 100%;height: 0px"
         ></iframe>
-<!--        <p><a href="https://goo.gl/photos/BhSB6Ns8DFU3nguB7" target="_blank">Image of acidraincity</a></p>-->
-<!--        <p><a href="/workspace/essay_2004_2012/list">essay.2004-2012</a></p>-->
-<!--        <p><a href="/workspace/20071201-20120710.html" target="_blank">끄적거림. 2007년 12월 1일 - 2012년 7월 10일</a></p>-->
-<!--        <p><a href="/post/dev/list">Programing</a></p>-->
-<!--        <p><a href="https://www.instagram.com/acidraincity/" target="_blank">살아가는 것에 대한 마음가짐</a></p>-->
-<!--        <p><a href="/workspace/career/index">Career History</a></p>-->
-<!--        <p><a href="https://acidraincity.com/forum/view/guestbook/list/1" target="_top">방명록</a></p>-->
+        <!--        <p><a href="https://goo.gl/photos/BhSB6Ns8DFU3nguB7" target="_blank">Image of acidraincity</a></p>-->
+        <!--        <p><a href="/workspace/essay_2004_2012/list">essay.2004-2012</a></p>-->
+        <!--        <p><a href="/workspace/20071201-20120710.html" target="_blank">끄적거림. 2007년 12월 1일 - 2012년 7월 10일</a></p>-->
+        <!--        <p><a href="/post/dev/list">Programing</a></p>-->
+        <!--        <p><a href="https://www.instagram.com/acidraincity/" target="_blank">살아가는 것에 대한 마음가짐</a></p>-->
+        <!--        <p><a href="/workspace/career/index">Career History</a></p>-->
+        <!--        <p><a href="https://acidraincity.com/forum/view/guestbook/list/1" target="_top">방명록</a></p>-->
     </footer>
 </div>
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
