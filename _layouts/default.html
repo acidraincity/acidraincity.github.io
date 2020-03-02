@@ -7,14 +7,6 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
-    <script type="text/javascript" charset="UTF-8">
-      document.domain = 'acidraincity.com';
-      if (window.self !== window.top) {
-        if (window.top.document.domain !== 'acidraincity.com') {
-          window.top.location.href = window.location.href;
-        }
-      }
-    </script>
     <style type="text/css">
         div.wrapper {
             width: auto;
@@ -29,12 +21,6 @@
     </style>
 </head>
 <body>
-<script type="text/javascript" charset="UTF-8">
-  function onMenuLoad() {
-    var f = document.getElementById('menuFrame');
-    f.style.height = f.contentWindow.document.body.scrollHeight;
-  }
-</script>
 <div class="wrapper">
     <header>
         <h1><a href="http://acidraincity.github.io">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -72,11 +58,17 @@
         <iframe
                 id="menuFrame"
                 src="https://acidraincity.com/jeon/menu"
-                onload="onMenuLoad();"
                 frameborder="0"
                 scrolling="no"
                 style="overflow: hidden;width: 100%;height: 0px"
         ></iframe>
+        <script type="text/javascript" charset="UTF-8">
+          document.domain = 'acidraincity.com';
+          var menuFrame = document.getElementById('menuFrame');
+          menuFrame.addEventListener('load', function() {
+            menuFrame.style.height = menuFrame.contentWindow.document.body.scrollHeight;
+          });
+        </script>
         <!--        <p><a href="https://goo.gl/photos/BhSB6Ns8DFU3nguB7" target="_blank">Image of acidraincity</a></p>-->
         <!--        <p><a href="/workspace/essay_2004_2012/list">essay.2004-2012</a></p>-->
         <!--        <p><a href="/workspace/20071201-20120710.html" target="_blank">끄적거림. 2007년 12월 1일 - 2012년 7월 10일</a></p>-->
