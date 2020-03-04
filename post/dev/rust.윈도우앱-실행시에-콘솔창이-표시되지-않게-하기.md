@@ -1,13 +1,37 @@
-# rust. feature 활성화하기
+# rust. 윈도우앱 실행시에 콘솔창이 표시되지 않게 하기
 
-20200304
+20180313
 
-다음과 같은 형식을 사용해서 빌드시에 특정 feature 들을 활성화시킬 수 있다.
+
+
+rust로 윈도우 프로그램을 개발할 때, 실행시 콘솔창이 표시되지 않게 하기 위해서는 main.rs 파일에 다음과 같이 선언해주면 됩니다.
+
+
+
+```rust
+#![windows_subsystem = "windows"]
+```
+
+
+
+vc런타임을 정적으로 포함하지 않으면, vcruntime dll을 찾지 못해 프로그램이 실행되지 못하는 경우가 생깁니다.
+
+이를 방지하기 위해서는 .cargo 디렉토리에 config 파일을 만들고 다음과 같은 설정을 추가해줍니다.
+
+
+
+```rust
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-Ctarget-feature=+crt-static", "-Zunstable-options"]
+```
+
+
+
+위와 같은 옵션을 처리하기 위해서는 nightly 컴파일러를 사용해야 합니다.
+
+
 
 ```
-cargo build --release --features "shumway pdf"
+rustup default nightly
 ```
 
-## 참고자료
-<https://doc.rust-lang.org/cargo/reference/manifest.html#usage-in-end-products>
-<https://doc.rust-lang.org/1.9.0/book/conditional-compilation.html>
