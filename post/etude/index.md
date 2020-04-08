@@ -1,6 +1,6 @@
 ---
 layout: post
-date: April 8, 2020
+date: 20200408
 title: Etude
 author: Jeon Yongtae
 ---
