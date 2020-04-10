@@ -40,6 +40,7 @@
 # kotlin
 
 - [재미있는 문법들](kotlin.재미있는-문법들)
+- [Java의 getter를 override하기](kotlin.Java의-getter를-override하기)
 
 
 
