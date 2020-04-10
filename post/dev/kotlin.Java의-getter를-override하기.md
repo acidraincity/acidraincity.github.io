@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 20200410
+date: 2020-04-10 
 title: Java의 getter를 override하기
 author: Jeon Yongtae
 categories: [kotlin]
