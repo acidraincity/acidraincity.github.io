@@ -1,5 +1,5 @@
 <!-- - [Career](workspace/career/index) -->
-<!-- - [메모](post/dev/list) -->
+<!-- - [메모](post/dev/index) -->
 <!-- - [Image of Acidraincity](https://goo.gl/photos/BhSB6Ns8DFU3nguB7){:target="_blank"} -->
 <!-- - [essay.2004-2012](workspace/essay_2004_2012/list) -->
 <!-- - [끄적거림. 2007년 12월 1일 - 2012년 7월 10일](workspace/20071201-20120710.html){:target="_blank"} -->
