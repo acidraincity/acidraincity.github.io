@@ -6,4 +6,4 @@ author: Jeon Yongtae
 categories: [git]
 tags: [git]
 ---
-[설정 확인하기](설정 확인하기)
+- [설정 확인하기](설정 확인하기)
