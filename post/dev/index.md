@@ -1,3 +1,4 @@
+[git](git/index)
 # git
 
 - [설정확인하기](git.설정확인하기)
