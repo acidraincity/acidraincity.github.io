@@ -1,11 +1,6 @@
 - [git](git/index)
 - [blender](blender/index)
 
-# blender
-
-- [MacOS에서의 플러그인 설치 경로](blender.MacOS에서의-플러그인-설치-경로)
-
-
 
 # react
 
