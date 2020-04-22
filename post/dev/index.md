@@ -1,6 +1,5 @@
 - [git](git/index)
 - [blender](blender/index)
-- [react](react/index)
 
 # react
 
