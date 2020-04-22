@@ -1,10 +1,6 @@
 - [git](git/index)
 - [blender](blender/index)
-
-# react
-
-- [폼 핸들링 관련한 몇가지 동작 규칙](react.폼-핸들링-관련한-몇가지-동작-규칙)
-
+- [react](react/index)
 
 
 # rust
