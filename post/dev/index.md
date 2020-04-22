@@ -1,12 +1,7 @@
 - [git](git/index)
 - [blender](blender/index)
 - [react](react/index)
-
-
-# rust
-
-- [윈도우앱 실행시에 콘솔창이 표시되지 않게 하기](rust.윈도우앱-실행시에-콘솔창이-표시되지-않게-하기)
-- [feature 활성화하기](rust.feature 활성화하기)
+- [rust](rust/index)
 
 
 # webassembly
