@@ -1,7 +1,11 @@
-# nodejs. 자식프로세스로 bat파일 실행하기
-
-20170719
-
+---
+layout: post
+date: 2017-07-19
+title: 자식프로세스로 bat파일 실행하기
+author: Jeon Yongtae
+categories: [Node.js]
+tags: [Node.js]
+---
 
 
 아래는 윈도우즈OS에서 bat 파일을 실행하고 표준출력을 읽어오는 코드 템플릿입니다.

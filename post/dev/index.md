@@ -2,7 +2,7 @@
 - [blender](blender/index)
 - [react](react/index)
 - [rust](rust/index)
-
+- [nodejs](nodejs/index)
 
 # webassembly
 
@@ -35,9 +35,6 @@
 
 
 
-# node.js
-
-- [자식프로세스로 bat파일 실행하기](nodejs.자식프로세스로-bat파일실행하기)
 
 
 
