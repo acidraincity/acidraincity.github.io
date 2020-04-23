@@ -1,8 +1,9 @@
-- [git](git/index)
-- [blender](blender/index)
-- [react](react/index)
-- [rust](rust/index)
-- [nodejs](nodejs/index)
+- [Git](git/index)
+- [Blender](blender/index)
+- [React](react/index)
+- [Rust](rust/index)
+- [Node.js](nodejs/index)
+- [C++](cpp/index)
 
 # webassembly
 
@@ -59,9 +60,6 @@
 
 
 
-# C++
-
-- [unique_ptr](C++.unique_ptr)
 
 
 

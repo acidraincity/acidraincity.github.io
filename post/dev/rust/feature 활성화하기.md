@@ -3,8 +3,8 @@ layout: post
 date: 2020-03-04 
 title: feature 활성화하기
 author: Jeon Yongtae
-categories: [rust]
-tags: [rust]
+categories: [Rust]
+tags: [Rust]
 ---
 
 다음과 같은 형식을 사용해서 빌드시에 특정 feature 들을 활성화시킬 수 있다.
