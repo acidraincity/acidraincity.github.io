@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-04-22 
-title: rust
+title: Rust
 author: Jeon Yongtae
 categories: [Rust]
 tags: [Rust]
