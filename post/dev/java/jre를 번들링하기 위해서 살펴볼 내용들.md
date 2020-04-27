@@ -1,7 +1,11 @@
-# java. jre를 번들링하기 위해 살펴볼 내용들
-
-20171021
-
+---
+layout: post
+date: 2017-10-21
+title: jre를 번들링하기 위해 살펴볼 내용들
+author: Jeon Yongtae
+categories: [Java]
+tags: [Java]
+---
 
 ### node-java
 

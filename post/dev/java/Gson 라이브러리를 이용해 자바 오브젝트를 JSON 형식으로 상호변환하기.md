@@ -1,6 +1,11 @@
-# java. Gson 라이브러리를 이용해 자바 오브젝트를 JSON 형식으로 상호변환하기
-
-20140417
+---
+layout: post
+date: 2014-04-17 
+title: Gson 라이브러리를 이용해 자바 오브젝트를 JSON 형식으로 상호변환하기
+author: Jeon Yongtae
+categories: [Java]
+tags: [Java]
+---
 
 
 기기간 데이터 전송이 필요한 네트워크 프로그램에서
