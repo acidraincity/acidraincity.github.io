@@ -1,3 +1,4 @@
+- [Java](java/index)
 - [Git](git/index)
 - [Blender](blender/index)
 - [React](react/index)
@@ -8,8 +9,6 @@
 # webassembly
 
 - [관련자료](webassembly.관련자료)
-
-
 
 # android
 
@@ -48,17 +47,6 @@
 - [x-tag를 사용해서 웹컴포넌트 구현하기](javascript.x-tag를-사용해서-웹컴포넌트-구현하기)
 - [비동기로 호출되는 내부함수에서 외부의 지역변수값 캡쳐하기](javascript.비동기로-호출되는-내부함수에서-외부의-지역변수값-캡쳐하기)
 - [함수 구현부에서 자기함수객체를 참조하는 방법](javascript.함수-구현부에서-자기함수객체를-참조하는-방법)
-
-
-
-# java
-
-- [byte의 unsigned 값을 int로 표시하기](java.byte의-unsigned-값을-int로-표시하기)
-- [jre를 번들링하기 위해서 살펴볼 내용들](java.jre를-번들링하기-위해서-살펴볼-내용들)
-- [Gson 라이브러리를 이용해 자바 오브젝트를 JSON 형식으로 상호변환하기](java.Gson-라이브러리를-이용해-자바-오브젝트를-JSON-형식으로-상호변환하기)
-- [직렬화를 이용한 객체복사](java.직렬화를-이용한-객체복사)
-
-
 
 
 
