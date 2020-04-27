@@ -1,8 +1,11 @@
-# java. byte의 unsigned 값을 int로 표시하기
-
-20180314
-
-
+---
+layout: post
+date: 2018-03-14 
+title: byte의 unsigned 값을 int로 표시하기
+author: Jeon Yongtae
+categories: [Java]
+tags: [Java]
+---
 
 다음과 같이 해서 byte 데이터의 unsigned 값을 표시할 수 있습니다.
 
