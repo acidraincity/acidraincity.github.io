@@ -7,8 +7,6 @@ categories: [Kotlin]
 tags: [Kotlin]
 ---
 
-
-
 # continue 하기
 
 ```kotlin
@@ -20,8 +18,6 @@ fun main(args: Array<String>) {
     }
 }
 ```
-
-
 
 # break 하기
 
@@ -36,8 +32,6 @@ fun main(args: Array<String>) {
     }
 }
 ```
-
-
 
 # 참고
 
