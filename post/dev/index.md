@@ -5,6 +5,7 @@
 - [Rust](rust/index)
 - [Node.js](nodejs/index)
 - [C++](cpp/index)
+- [Windows](windows/index)
 
 # webassembly
 
@@ -65,15 +66,6 @@
 
 - [nodejs 타입정보 추가하기](typescript.nodejs-타입정보-추가하기)
 - [customElements.define 사용하기](typescript.customElements.define-사용하기)
-
-
-
-# windows
-
-- [소프트링크 만들기](windows.소프트링크-만들기)
-
-- [SMB 접속시 MS계정으로 로그인이 안될 때](windows.SMB-접속시-MS계정으로-로그인이-안될-때)
-
 
 
 # server
