@@ -11,11 +11,11 @@ tags: [Kotlin]
 
 ```kotlin
 fun main(args: Array<String>) {
-    val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-    nums.forEach {
-       if (it == 5) return@forEach
-       println(it)
-    }
+	val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+	nums.forEach {
+		if (it == 5) return@forEach
+		println(it)
+	}
 }
 ```
 
@@ -23,13 +23,13 @@ fun main(args: Array<String>) {
 
 ```kotlin
 fun main(args: Array<String>) {
-    val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-    run loop@{
-        nums.forEach {
-           if (it == 5) return@loop
-           println(it)
-        }
-    }
+	val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+	run loop@{
+		nums.forEach {
+			if (it == 5) return@loop
+			println(it)
+		}
+	}
 }
 ```
 
