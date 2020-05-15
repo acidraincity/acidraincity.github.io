@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-04-20 
-title: git
+title: Git
 author: Jeon Yongtae
 categories: [Git]
 tags: [Git]

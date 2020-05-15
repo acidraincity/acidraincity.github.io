@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-04-22 
-title: react
+title: React
 author: Jeon Yongtae
 categories: [React]
 tags: [React]

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-04-22
-title: blender
+title: Blender
 author: Jeon Yongtae
 categories: [Blender]
 tags: [Blender]
