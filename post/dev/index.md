@@ -7,6 +7,7 @@
 - [Node.js](nodejs/index)
 - [C++](cpp/index)
 - [Windows](windows/index)
+- [WebAssembly](webassembly/index)
 
 # webassembly
 
