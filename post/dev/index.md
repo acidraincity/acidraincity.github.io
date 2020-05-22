@@ -9,10 +9,6 @@
 - [Windows](windows/index)
 - [WebAssembly](webassembly/index)
 
-# webassembly
-
-- [관련자료](webassembly.관련자료)
-
 # android
 
 - [JNI 네이티브 코드에서 Android Java API 호출하기](android.JNI-네이티브-코드에서-Android-Java-API-호출하기)
