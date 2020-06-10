@@ -57,3 +57,7 @@ wasmtime --invoke add_one ./target/wasm32-wasi/debug/wasi_lib_demo.wasm 4
 ```
 
 [GitHub - bytecodealliance/wasmtime: Standalone JIT-style runtime for WebAssembly, using Cranelift](https://github.com/bytecodealliance/wasmtime)
+
+# 참고
+
+- [Rust - Wasmtime](https://bytecodealliance.github.io/wasmtime/wasm-rust.html)
