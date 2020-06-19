@@ -6,6 +6,16 @@ categories: [Bookmarks]
 tags: [Bookmarks]
 ---
 
+# Web Tool
+
+- [table-magic](https://stevecat.net/table-magic/)
+
+# Rust
+
+## Library Guide
+
+- [Are we GUI yet?](https://areweguiyet.com/)
+
 # Resource
 
 ## Image
