@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-06-30
-title: index
+title: JavaScript
 author: Jeon Yongtae
 categories: [JavaScript]
 tags: [JavaScript]
