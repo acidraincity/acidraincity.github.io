@@ -8,6 +8,7 @@
 - [WebAssembly](webassembly/index)
 - [webpack](webpack/index)
 - [React](react/index)
+- [JavaScript](javascript/index)
 - [Node.js](nodejs/index)
 
 # android
