@@ -36,22 +36,6 @@
 
 
 
-
-
-
-# javascript
-
-- [git 프로젝트를 의존성 등록하기](javascript.git-프로젝트를-의존성-등록하기)
-- [로컬 모듈을 의존성 등록하기](javascript.로컬-모듈을-의존성-등록하기)
-- [DOM 메소드와 프로퍼티](javascript.DOM-메소드와-프로퍼티)
-- [Promise.race()를 이용한 타임아웃 처리](javascript.Promise.race()를-이용한-타임아웃-처리)
-- [x-tag를 사용해서 웹컴포넌트 구현하기](javascript.x-tag를-사용해서-웹컴포넌트-구현하기)
-- [비동기로 호출되는 내부함수에서 외부의 지역변수값 캡쳐하기](javascript.비동기로-호출되는-내부함수에서-외부의-지역변수값-캡쳐하기)
-- [함수 구현부에서 자기함수객체를 참조하는 방법](javascript.함수-구현부에서-자기함수객체를-참조하는-방법)
-
-
-
-
 # gradle
 
 - [gradle](gradle)
