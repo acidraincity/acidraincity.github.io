@@ -1,8 +1,11 @@
-# javascript. Promise.race()를 이용한 타임아웃 처리
-
-20171021
-
-
+---
+layout: post
+date: 2017-10-21
+title: Promise race 를 이용한 타임아웃 처리
+author: Jeon Yongtae
+categories: [JavaScript]
+tags: [JavaScript]
+---
 
 Promise.race로 생성된 Promise는 관리하는 Promise들 중에 하나만 resolve 또는 reject 되어도 해당 상태로 완료됩니다.
 
