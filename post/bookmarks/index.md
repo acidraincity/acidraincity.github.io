@@ -8,6 +8,12 @@ tags: [Bookmarks]
 
 # Web Tool
 
+## PDF
+
+- https://brendandahl.github.io/pdf.js.utils/browser/
+
+## ETC
+
 - [table-magic](https://stevecat.net/table-magic/)
 
 # Museum
