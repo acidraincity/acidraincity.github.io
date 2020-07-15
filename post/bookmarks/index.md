@@ -26,6 +26,10 @@ tags: [Bookmarks]
 
 - [Are we GUI yet?](https://areweguiyet.com/)
 
+## Study
+
+- [Tour of Rust](https://tourofrust.com/)
+
 # Git
 
 - <https://medium.com/beyond-the-windows-korean-edition/use-windows10-open-ssh-tips-e6e9c77de433>
