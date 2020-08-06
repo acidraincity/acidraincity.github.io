@@ -10,7 +10,7 @@ tags: [Bookmarks]
 
 ## PDF
 
-- https://brendandahl.github.io/pdf.js.utils/browser/
+- <https://brendandahl.github.io/pdf.js.utils/browser/>
 
 ## Etc.
 
@@ -70,6 +70,6 @@ tags: [Bookmarks]
 
 - [온라인 전시관::국립중앙박물관 - 모바일](https://www.museum.go.kr/site/korm/content/vr_museum)
 
-- [Hypervisions | Uffizi Galleries](https://www.uffizi.it/en/online-exhibitions)
+- [Uffizi Galleries](https://www.uffizi.it/en/online-exhibitions)
 
-- [찾아보기 — Google Arts & Culture](https://artsandculture.google.com/explore)
+- [Google Arts & Culture](https://artsandculture.google.com/explore)
