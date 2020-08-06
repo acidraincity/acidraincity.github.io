@@ -38,17 +38,25 @@ tags: [Bookmarks]
 
 # Rust
 
-## Library Guide
+## GUI
 
 - [Are we GUI yet?](https://areweguiyet.com/)
 
-## Study
+## Guide
 
 - [Tour of Rust](https://tourofrust.com/)
+
+# Error Handling
+
+- [Beginner's guide to Error Handling in Rust](http://www.sheshbabu.com/posts/rust-error-handling/)
 
 # Git
 
 - <https://medium.com/beyond-the-windows-korean-edition/use-windows10-open-ssh-tips-e6e9c77de433>
+
+# Comment Engine
+
+- [GitHub - umputun/remark42: comment engine](https://github.com/umputun/remark42)
 
 # Resource
 
