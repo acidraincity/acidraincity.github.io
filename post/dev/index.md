@@ -1,6 +1,7 @@
 - [Kotlin](kotlin/index)
 - [Java](java/index)
 - [Git](git/index)
+- [Gradle](gradle/index)
 - [Blender](blender/index)
 - [Rust](rust/index)
 - [C++](cpp/index)
@@ -33,17 +34,6 @@
 - [electron으로 데스크탑 앱을 개발하기 위해 둘러볼 내용들](electron.electron으로-데스트탑-앱을-개발하기-위해-둘러볼-내용들)
 - [java 연동하기](electron.java-연동하기)
 - [google oauth2 인증 및 contacts api 사용](electron.google-oauth2-인증-및-contacts-api-사용)
-
-
-
-# gradle
-
-- [gradle](gradle)
-- [로컬저장소를 통해 모듈 의존성 관리하기](gradle.로컬저장소를-통해-모듈-의존성-관리하기)
-- [안드로이드 빌드](gradle.안드로이드-빌드)
-- [원격지 tomcat에 프로젝트 배포하기](gradle.원격지-tomcat에-프로젝트-배포하기)
-- [환경변수에서 값을 가져오기](gradle.환경변수에서-값을-가져오기)
-
 
 
 # typescript
