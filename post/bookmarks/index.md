@@ -42,9 +42,10 @@ tags: [Bookmarks]
 
 - [Are we GUI yet?](https://areweguiyet.com/)
 
-## Guide
+## Learning
 
 - [Tour of Rust](https://tourofrust.com/)
+- <https://github.com/Dhghomon/easy_rust>
 
 # Error Handling
 
